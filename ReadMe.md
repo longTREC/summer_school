@@ -5,7 +5,7 @@
 
 Welcome to the **LongTREC Bioinformatics Summer School on Analysis of Long-Reads Technology Data**.
 
-We have organised a 4-day course with the aim of introducing masters’ students, doctoral candidates, and early career postdoctoral fellows into the super exciting world of long-reads. In this course, we will introduce you to diverse topics—from an introduction to the technologies and basic data processing, to analyzing long-reads transcriptomics, single-cell long-reads, and many other exciting topics.
+We have organised a 4-day course with the aim of introducing master’s students, doctoral candidates, and early career postdoctoral fellows into the super exciting world of long-read RNA sequencing. In this course, we will introduce you to diverse topics—from an introduction to the technologies and basic data processing, to analyzing long-reads transcriptomics, single-cell long-reads, and many other exciting topics.
 
 ## What Will I Learn?
 
