@@ -1,3 +1,6 @@
+![LongTREC Logo](LongTREC_logo_FINAL.png)
+
+
 # LongTREC Bioinformatics Summer School
 
 Welcome to the **LongTREC Bioinformatics Summer School on Analysis of Long-Reads Technology Data**.
