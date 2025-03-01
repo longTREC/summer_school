@@ -41,6 +41,7 @@ schemadotorg:
   inLanguage: "en-us"
   url: "https://longtrec.github.io/summer_school/"
 ---
+<img src="https://github.com/longTREC/summer_school/blob/master/assets/logos/LongTREC_logo_FINAL.png" align="centre" width="25%" height="25%">
 
 ## Course Description
 
@@ -79,7 +80,7 @@ This training is specifically designed for early career researchers who are:
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
 | 09:00 - 12:30 | **Lecture**: Different long-read sequencing technologies, experimental design, quality, mapping |
-| 12:30 - 13:30 | *Lunch Break*                                                                               |
+| 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                            |
 | 13:30 - 17:00 | **Hands-on**: Different long-read mappers and QC evaluation with SQANTI-reads               |
 
 ### Day 2 - 15 July 2025 | Transcript Analysis Day
@@ -87,7 +88,7 @@ This training is specifically designed for early career researchers who are:
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
 | 09:00 - 12:30 | **Lecture & Hands-on**: Transcript identification and quantification using long reads      |
-| 12:30 - 13:30 | *Lunch Break*                                                                               |
+| 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                            |
 | 13:30 - 17:00 | **Lecture & Hands-on**: Evaluation of structural annotation using long reads RNA sequencies       |
 
 ### Day 3 - 16 July 2025 | Advanced Analysis Day
@@ -95,7 +96,7 @@ This training is specifically designed for early career researchers who are:
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
 | 09:00 - 12:30 | **Lecture & Hands-on**: Differential expression and haplotype analysis using long reads    |
-| 12:30 - 13:30 | *Lunch Break*                                                                               |
+| 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                          |
 | 13:30 - 17:00 | **Lecture & Hands-on**: RNA modifications with long reads                                  |
 
 ### Day 4 - 17 July 2025 | Specialized Applications Day
@@ -103,7 +104,7 @@ This training is specifically designed for early career researchers who are:
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
 | 09:00 - 12:30 | **Lecture & Hands-on**: Single-cell and spatial transcriptomics with long reads           |
-| 12:30 - 13:30 | *Lunch Break*                                                                               |
+| 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                              |
 | 13:30 - 17:00 | **Lecture & Hands-on**: Metatranscriptomics with long reads                               |
 
 
