@@ -1,64 +1,73 @@
 ![LongTREC Logo](LongTREC_logo_FINAL.png)
 
-
 # LongTREC Bioinformatics Summer School
+
+## Welcome
 
 Welcome to the **LongTREC Bioinformatics Summer School on Analysis of Long-Reads Technology Data**.
 
-We have organised a 4-day course with the aim of introducing masters’ students, doctoral candidates, and early career postdoctoral fellows into the super exciting world of long-reads. In this course, we will introduce you to diverse topics—from an introduction to the technologies and basic data processing, to analyzing long-reads transcriptomics, single-cell long-reads, and many other exciting topics.
+We have organized a comprehensive 4-day course designed for masters' students, doctoral candidates, and early career postdoctoral fellows interested in exploring the exciting world of long-read sequencing. Throughout this course, you will be introduced to a diverse range of topics—from fundamental technologies and basic data processing to advanced applications including long-read transcriptomics, single-cell analysis, and much more.
 
-## What Will I Learn?
+## What Will You Learn?
 
-- An overview of different long-read sequencing technologies
-- Best practice in experimental design
-- How to evaluate quality control reads using SQANTI-reads
-- How to use long-reads to identify and quantify transcripts
-- Hands-on experience in genome and functional annotation
-- Hands-on experience in differential expression analysis and haplotype identification
-- Identification of RNA modifications using long reads
-- An overview of single-cell and spatial transcriptomics
-- Principles and practice of metatranscriptomics with long reads
+* **Technologies & Fundamentals**
+  * Comprehensive overview of different long-read sequencing technologies
+  * Best practices in experimental design
+  * Quality control evaluation using SQANTI-reads
 
-## Who Is This Training For?
+* **Analysis & Applications**
+  * Transcript identification and quantification using long reads
+  * Genome and functional annotation techniques
+  * Differential expression analysis and haplotype identification
+  * RNA modifications detection with long reads
 
-Early career researchers who are in the grant application or experimental design stages of projects centered around long-read sequencing.
+* **Advanced Topics**
+  * Single-cell and spatial transcriptomics approaches
+  * Principles and practical applications of metatranscriptomics
 
-## Course Pre-requisites
+## Who Should Attend?
 
-Familiarity with the command line is recommended. You should be familiar with the basics as taught in the [Software Carpentry lesson on The Unix Shell](https://swcarpentry.github.io/shell-novice/), or work through these materials before the training starts.
+This training is specifically designed for early career researchers who are:
+* In the grant application phase for long-read sequencing projects
+* Planning experimental design for studies centered around long-read technologies
+* Looking to expand their bioinformatics toolkit with cutting-edge long-read analysis methods
 
+## Course Prerequisites
 
+* **Required Skills**: Familiarity with command line interfaces
+* Participants should be comfortable with basic Unix shell commands as taught in the [Software Carpentry lesson on The Unix Shell](https://swcarpentry.github.io/shell-novice/)
+* We recommend working through these materials before the training if you need to refresh your skills
 
-# Workshop Schedule
+## Workshop Schedule
 
-## Day 1 - 14 July 2025
+### Day 1 - 14 July 2025 | Foundation Day
 
-| Time         | Topic                                                                                         |
-|--------------|-----------------------------------------------------------------------------------------------|
-| 09.00 - 12.30| Lecture: Different long-read sequencing technologies, experimental design, quality, mapping   |
-| 12.30 - 13.30| Lunch                                                                                         |
-| 13.30 - 17.00| Hands-on: Different long-read mappers and QC evaluation with SQANTI-reads                       |
+| Time          | Session                                                                                    |
+|---------------|--------------------------------------------------------------------------------------------|
+| 09:00 - 12:30 | **Lecture**: Different long-read sequencing technologies, experimental design, quality, mapping |
+| 12:30 - 13:30 | *Lunch Break*                                                                               |
+| 13:30 - 17:00 | **Hands-on**: Different long-read mappers and QC evaluation with SQANTI-reads               |
 
-## Day 2 - 15 July 2025
+### Day 2 - 15 July 2025 | Transcript Analysis Day
 
-| Time         | Topic                                                                                                         |
-|--------------|---------------------------------------------------------------------------------------------------------------|
-| 09.00 - 12.30| Lecture and hands-on: Transcript identification and quantification using long reads                           |
-| 12.30 - 13.30| Lunch                                                                                                         |
-| 13.30 - 17.00| Lecture and hands-on: Annotation: functional annotation and genome annotation using long reads                 |
+| Time          | Session                                                                                    |
+|---------------|--------------------------------------------------------------------------------------------|
+| 09:00 - 12:30 | **Lecture & Hands-on**: Transcript identification and quantification using long reads      |
+| 12:30 - 13:30 | *Lunch Break*                                                                               |
+| 13:30 - 17:00 | **Lecture & Hands-on**: Functional annotation and genome annotation using long reads       |
 
-## Day 3 - 16 July 2025
+### Day 3 - 16 July 2025 | Advanced Analysis Day
 
-| Time         | Topic                                                                                                         |
-|--------------|---------------------------------------------------------------------------------------------------------------|
-| 09.00 - 12.30| Lecture and hands-on: Differential expression and haplotype analysis using long reads                           |
-| 12.30 - 13.30| Lunch                                                                                                         |
-| 13.30 - 17.00| Lecture and hands-on: RNA modifications with long reads                                                        |
+| Time          | Session                                                                                    |
+|---------------|--------------------------------------------------------------------------------------------|
+| 09:00 - 12:30 | **Lecture & Hands-on**: Differential expression and haplotype analysis using long reads    |
+| 12:30 - 13:30 | *Lunch Break*                                                                               |
+| 13:30 - 17:00 | **Lecture & Hands-on**: RNA modifications with long reads                                  |
 
-## Day 4 - 17 July 2025
+### Day 4 - 17 July 2025 | Specialized Applications Day
 
-| Time         | Topic                                                                                                         |
-|--------------|---------------------------------------------------------------------------------------------------------------|
-| 09.00 - 12.30| Lecture and hands-on: Single-cell and spatial transcriptomics with long reads                                 |
-| 12.30 - 13.30| Lunch                                                                                                         |
-| 13.30 - 17.00| Lecture and hands-on: Metatranscriptomics with long reads                                                      |
+| Time          | Session                                                                                    |
+|---------------|--------------------------------------------------------------------------------------------|
+| 09:00 - 12:30 | **Lecture & Hands-on**: Single-cell and spatial transcriptomics with long reads           |
+| 12:30 - 13:30 | *Lunch Break*                                                                               |
+| 13:30 - 17:00 | **Lecture & Hands-on**: Metatranscriptomics with long reads                               |
