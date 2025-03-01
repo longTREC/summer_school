@@ -8,21 +8,21 @@ schemadotorg:
   # Course details
        # "name" -> The acronym and extended name of the course, separated by " - "
        # "description" -> Short description of the course
-  name: "COURSE_SHORT - COURSE_EXTENDED_NAME"
+  name: "LongTREC summer school - long-read transcriptomics"
   description: ""
 
   # Keywords -> Consult EDAM:Topic
   keywords:  ""
 
   # Audience -> Following Elixir-Tess input
-  audience: ["Academia/ Research Institution", "Industry", "Non-Profit Organisation", "Healthcare"]
+  audience: ["Academia/ Research Institution"]
 
   # Author info
   author:
     - "@type": Organization
-      name: "The Gulbenkian Training Programme in Bioinformatics"
-      alternateName: "GTPB"
-      sameAs: "gtpb.igc.gulbenkian.pt/bicourses/index.html"
+      name: "LongTREC"
+      alternateName: "LongTREC"
+      sameAs: "https://longtrec.eu/"
 
   # predominant type of learning resources
   "learningResourceType": ["presentation", "exercise", "scripts", "handout"]
@@ -39,7 +39,7 @@ schemadotorg:
   # License & Language & url
   license: https://creativecommons.org/licenses/by/4.0/
   inLanguage: "en-us"
-  url: "https://gtpb.github.io/Web_course_template/"
+  url: "https://longtrec.github.io/summer_school/"
 ---
 
 ## Course Description
