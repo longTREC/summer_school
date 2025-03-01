@@ -1,4 +1,4 @@
-![LongTREC Logo](LongTREC_logo_FINAL.png)
+![LongTREC Logo](assets/logos/LongTREC_logo_FINAL.png)
 
 # LongTREC Bioinformatics Summer School
 
