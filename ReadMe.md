@@ -17,7 +17,7 @@ We have organized a comprehensive 4-day course designed for master's students, d
 
 * **Analysis & Applications**
   * Transcript identification and quantification using long reads
-  * Genome and functional annotation techniques
+  * Structural annotation evaluation  
   * Differential expression analysis and haplotype identification
   * RNA modifications detection with long reads
 
@@ -54,7 +54,7 @@ This training is specifically designed for early career researchers who are:
 |---------------|--------------------------------------------------------------------------------------------|
 | 09:00 - 12:30 | **Lecture & Hands-on**: Transcript identification and quantification using long reads      |
 | 12:30 - 13:30 | *Lunch Break*                                                                               |
-| 13:30 - 17:00 | **Lecture & Hands-on**: Functional annotation and genome annotation using long reads       |
+| 13:30 - 17:00 | **Lecture & Hands-on**: Evaluation of structural annotation using long reads RNA sequencies       |
 
 ### Day 3 - 16 July 2025 | Advanced Analysis Day
 
