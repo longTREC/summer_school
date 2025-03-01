@@ -1,3 +1,31 @@
+# LongTREC Bioinformatics Summer School
+
+Welcome to the **LongTREC Bioinformatics Summer School on Analysis of Long-Reads Technology Data**.
+
+We have organised a 4-day course with the aim of introducing masters’ students, doctoral candidates, and early career postdoctoral fellows into the super exciting world of long-reads. In this course, we will introduce you to diverse topics—from an introduction to the technologies and basic data processing, to analyzing long-reads transcriptomics, single-cell long-reads, and many other exciting topics.
+
+## What Will I Learn?
+
+- An overview of different long-read sequencing technologies
+- Best practice in experimental design
+- How to evaluate quality control reads using SQANTI-reads
+- How to use long-reads to identify and quantify transcripts
+- Hands-on experience in genome and functional annotation
+- Hands-on experience in differential expression analysis and haplotype identification
+- Identification of RNA modifications using long reads
+- An overview of single-cell and spatial transcriptomics
+- Principles and practice of metatranscriptomics with long reads
+
+## Who Is This Training For?
+
+Early career researchers who are in the grant application or experimental design stages of projects centered around long-read sequencing.
+
+## Course Pre-requisites
+
+Familiarity with the command line is recommended. You should be familiar with the basics as taught in the [Software Carpentry lesson on The Unix Shell](https://swcarpentry.github.io/shell-novice/), or work through these materials before the training starts.
+
+
+
 # Workshop Schedule
 
 ## Day 1 - 14 July 2025
