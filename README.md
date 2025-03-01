@@ -1,6 +1,6 @@
 # LongTREC Bioinformatics Summer School
 
-<img src="https://github.com/longTREC/summer_school/blob/master/assets/logos/LongTREC_logo_FINAL.png" align="centre" width="70%" height="70%">
+<img src="https://github.com/longTREC/summer_school/blob/master/assets/logos/LongTREC_logo_FINAL.png" align="centre" width="50%" height="50%">
 
 ## 👋 Welcome
 
