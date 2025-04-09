@@ -41,7 +41,7 @@ schemadotorg:
   inLanguage: "en-us"
   url: "https://longtrec.github.io/summer_school/"
 ---
-<img src="https://github.com/longTREC/summer_school/blob/master/assets/logos/LongTREC_logo_FINAL.png" align="centre" width="25%" height="25%">
+<img src="./assets/logos/LongTREC_logo_FINAL.png" align="centre" width="25%" height="25%">
 
 ## Course Description
 
