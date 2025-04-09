@@ -39,7 +39,7 @@ Familiarity with the command line is recommended. You should be familiar with th
 | 12.30 - 13.30| Lunch                                                                                         |
 | 13.30 - 17.00| Hands-on: Different long-read mappers and QC evaluation with SQANTI-reads                       |
 
-## Day 2 - 15 July 2025
+## [Day 2 - 15 July 2025](./day2.md)
 
 | Time         | Topic                                                                                                         |
 |--------------|---------------------------------------------------------------------------------------------------------------|
