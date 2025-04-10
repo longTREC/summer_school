@@ -31,7 +31,7 @@ Familiarity with the command line is recommended. You should be familiar with th
 
 # Workshop Schedule
 
-## Day 1 - 14 July 2025(./day1.md)
+## [Day 1 - 14 July 2025](./day1.md)
 
 | Time         | Topic                                                                                         |
 |--------------|-----------------------------------------------------------------------------------------------|
