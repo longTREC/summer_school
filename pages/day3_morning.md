@@ -1,46 +1,15 @@
 ---
 layout: page
+title: Page title
 schemadotorg:
   "@context": http://schema.org/
   "@type": CreativeWork
   "genre": TrainingMaterial
-
-  # Course details
-       # "name" -> The acronym and extended name of the course, separated by " - "
-       # "description" -> Short description of the course
-  name: "LongTREC summer school - Differential expression and haplotype analysis using long reads"
-  description: ""
-
-  # Keywords -> Consult EDAM:Topic
-  keywords:  ""
-
-  # Audience -> Following Elixir-Tess input
-  audience: ["Academia/ Research Institution"]
-
-  # Author info
-  author:
-    - "@type": Organization
-      name: "LongTREC"
-      alternateName: "LongTREC"
-      sameAs: "https://longtrec.eu/"
-
-  # predominant type of learning resources
-  "learningResourceType": ["presentation", "exercise", "scripts", "handout"]
-
-  # Contributor info
-  contributor:
-    - "@type": Person
-      name: "CO-AUTHOR_1"
-    - "@type": Person
-      name: "CO-AUTHOR_2"
-    - "@type": Person
-      name: "CO-AUTHOR_3"
-
-  # License & Language & url
-  license: https://creativecommons.org/licenses/by/4.0/
-  inLanguage: "en-us"
-  url: "https://longtrec.github.io/summer_school/day3_morning"
+  isPartOf:
+      url: "https://longtrec.github.io/summer_school/"
+      name: "LongTREC summer school - long-read transcriptomics"
 ---
+
 <img src="../assets/logos/LongTREC_logo_FINAL.png" width="200" />
 
 # Day 3 Morning Agenda
@@ -66,3 +35,8 @@ schemadotorg:
 - understand the difficulties of assigning reads to isoforms
 - understand biological mechanisms of allelic imbalance
 - understand different sources of bias in allele-specific expression analysis
+
+
+### Back
+
+Back to [main page](../index.md).
