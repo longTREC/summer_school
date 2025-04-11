@@ -3,7 +3,8 @@
 ## Goals
 **Morning session: Single-cell and spatial transcriptomics with long reads** 
 * Learn the differences between bulk experiments and single-cell experiments (library preparation and data)
-
+* Understand the different steps involved in going from Long Sequncing Reads to gene and isoform matrices.
+* Learn the basics of tertiary analysis for single cell data with focus on long read specific steps.
 
 
 **Afternoon session: Metatranscriptomics** 
