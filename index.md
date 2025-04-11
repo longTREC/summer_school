@@ -95,7 +95,7 @@ This training is specifically designed for early career researchers who are:
 
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | **Lecture & Hands-on**: Differential expression and haplotype analysis using long reads    |
+| 09:00 - 12:30 | **Lecture & Hands-on**: [Differential expression and haplotype analysis using long reads](https://github.com/longTREC/summer_school/blob/master/pages/day3_morning.md) |
 | 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                          |
 | 13:30 - 17:00 | **Lecture & Hands-on**: RNA modifications with long reads                                  |
 
