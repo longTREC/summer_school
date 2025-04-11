@@ -17,8 +17,9 @@
 | --------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 09:00 - 09:10 | Introduction & Objectives         | <u>Eamon</u>: Introduction                                                                                                     |
 | 09:10 - 09:25 | Long Read Single-cell Library Preparation    | <u>Fran</u>:  Differences between bulk library preparation and single-cell library preparation.                                                                                                            |
-| 09:25 - 10:00 | Preprocessing and QC    | <u>Fran</u>: Commercial analysis pipelines available, overview of the analysis steps and additional tools available.                                                                                          |
-| 10:00 - 10:30 | Q&A Break       | Break                                                                                                                                                                    |
+| 09:25 - 09:30 | Break       |                                                                                                                                                                    |
+| 09:30 - 10:00 | Preprocessing and QC    | <u>Fran</u>: Commercial analysis pipelines available, overview of the analysis steps and additional tools available.                                                                                          |
+| 10:00 - 10:30 | Coffee Break       | Break                                                                                                                                                                    |
 | 10:30 - 11:00 | Tertiary analysis   | <u>Eamon</u>: Filtering, QC, cell typing, gene level analysis, isoform level analysis.                                                  |
 | 11:00 - 12:30 | Hands-on    | <u>Eamon and Fran</u>: Quantification exercise: overview of intermediate output files and considerations. Highlight the differences with bulk output files. Tertiary analysis exercise: QC, Standard Workflow for single cell, Differential Isoform Usage/Isoform switches.   |
 | 12:30 - 13:30 | Lunch Break | Lunch and informal networking                                                                                                       |
@@ -34,7 +35,8 @@
 
 ## Learning Outcomes
 **Morning session: Single-cell and spatial transcriptomics with long reads** 
-
+* Identify and understand differences between bulk and single-cell protocols
+* Understand single-cell analysis pipeline steps
 
 
 **Afternoon session: Metatranscriptomics** 
