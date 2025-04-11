@@ -1,8 +1,14 @@
 # Day 4 Agenda
 
 ## Goals
-* 
-*
+**Morning session: Single-cell and spatial transcriptomics with long reads** 
+
+
+
+**Afternoon session: Metatranscriptomics** 
+* Provide participants with a comprehensive understanding of the **metatranscriptomics workflow**
+* Introduce practical skills for **analyzing long-read metatranscriptomic data**
+* Highlight the **challenges and considerations** unique to environmental metatranscriptomics
 
 
 ## Timetable
@@ -26,8 +32,17 @@
 
 
 ## Learning Outcomes
-* 
-* 
+**Morning session: Single-cell and spatial transcriptomics with long reads** 
+
+
+
+**Afternoon session: Metatranscriptomics** 
+* Explore applications of metatranscriptomics in environmental studies
+* Understand what is metatranscriptomics workflow from RNA extraction to data interpretation
+* Recognize challenges and biases regarding metatranscriptomics
+* Perform quality control of raw metatranscriptomic reads
+* Understand the differences when mapping filtered metatranscriptomic long reads to different references
+* Explore taxonomic diversity in different communities and characterise active functions
 
 
 ## Materials
