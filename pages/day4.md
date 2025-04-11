@@ -12,7 +12,7 @@
 | 09:10 - 09:25 | Long Read Single-cell Library Preparation    | <u>Fran</u>: Library preparation                                                                                                                |
 | 09:25 - 10:00 | Preprocessing and QC    | <u>Fran</u>: Introduce commercial pipelines, Steps (From UBAM to quantification)(Point to the tool for each step), recommendations                                                                                          |
 | 10:00 - 10:30 | Q&A Break       | Break                                                                                                                                                                    |
-| 10:39 - 11:00 | Tertiary analysis   | <u>Eamon</u>: Filtering, QC, cell typing, gene level analysis, isoform level analysis.                                                  |
+| 10:30 - 11:00 | Tertiary analysis   | <u>Eamon</u>: Filtering, QC, cell typing, gene level analysis, isoform level analysis.                                                  |
 | 11:00 - 12:30 | Hands-on    | <u>Eamon and Fran</u>: Quantification exercise: Commands to map, checking output files (highlight differences between bulk output). Tertiary analysis exercise: QC, Standard Workflow for single cell, Differential Isoform Usage/Isoform switches.   |
 | 12:30 - 13:30 | Lunch Break | Lunch and informal networking                                                                                                       |
 | 13:30 - 13:40 | Introduction & Objectives | <u>Carmen</u>: Welcome participants, overview of the workshop goals and structure. Learning outcomes and expectations.                                                                                                                     |
