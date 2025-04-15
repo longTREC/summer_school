@@ -18,6 +18,7 @@ schemadotorg:
 Morning session:
 * To learn how long-read RNA-seq can be used for differential isofrom expression/usage analysis and what are the current challenges
 * To learn about specific chase of expression analysis: allele-specific expression analysis
+
 Afternoon session:
 * Learn how long read sequencing technologies are utilized for the study of RNA modifications
 * Hands-on session for the study of the tRNAome
