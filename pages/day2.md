@@ -1,7 +1,26 @@
-![LongTREC Logo](../assets/logos/LongTREC_logo_FINAL.png)
+---
+layout: page
+title: Day 2
+schemadotorg:
+  "@context": http://schema.org/
+  "@type": CreativeWork
+  "genre": TrainingMaterial
+  isPartOf:
+      url: "https://longtrec.github.io/summer_school/"
+      name: "LongTREC summer school - long-read transcriptomics"
+---
+
+<img src="../assets/logos/LongTREC_logo_FINAL.png" width="200" />
 
 # Day 2 Agenda
 
+## Goals
+* Gain an overview of the challenges of transcript identification and the variety of computational methods.
+* Gain practical proficiency in the identification of known and novel transcript isoforms, as well as quality control of transcriptomes using tools like `IsoTools` and `SQANTI3`.
+* Understand how to create structural annotations using an ab-initio predictor and further validate such annotations with long-read sequencing data.
+* Gain practical experience in deriving isoform-resolved functional annotations and drawing biological conclusions through visualization and exploration.
+
+## Timetable
 
 | Time          | Activity                | Details                                                                                                                                       |
 | --------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -17,12 +36,11 @@
 | 14:30 - 15:00 | Structural Annotation Practice: Validation | <u>Fabio</u>: Using long-read RNA support to validate gene models in a novel annotation                                                                                                                     |
 | 15:00 - 15:30 | Coffee Break                      |                                                                                                                                                                   |
 | 15:30 - 16:00 | Functional Annotation Theory      | <u>Ana & Fabian</u>: How to map functions (from public databases or predictors) to isoform-resolved sequences        |
-| 16:00 - 16:50 | Functional Annotation Practice    | <u>Ana</u>: Utilizing IsoAnnotLite to obtain isoform-resolved annotations and visualization of results |
+| 16:00 - 16:50 | Functional Annotation Practice    | <u>Ana & Fabian</u>: Utilizing IsoAnnotLite to obtain isoform-resolved annotations and visualization of results |
 | 16:50 - 17:00 | Summary                           | Questions                                                                                                                                                         |
 
 
-
-## Learning Outcomes
+## Learning Objectives
 * Students should be able to understand common problems for transcript identification and quantification and benchmarking resources
 * Students should be able to understand the landscape of transcript identification and quantification tools.
 * Students should be able to apply IsoTools and SQANTI3.
@@ -30,3 +48,21 @@
 * Students should be able to use long read sequences to validate gene models and assess performance
 * Students should be able to functionally annotate transcript models and evaluate annotation results.
 
+
+## Materials
+* (here we will put links to the slides)
+
+
+## Data
+* 
+
+
+## Recommended Bibliography
+* Monzó, C., Liu, T. & Conesa, A. Transcriptomics in the era of long-read sequencing. Nature Reviews Genetics (2025). [https://doi.org/10.1038/s41576-025-00828-z](https://doi.org/10.1038/s41576-025-00828-z)
+* Bi, Yalan, et al. "IsoTools 2.0: software for comprehensive analysis of long-read transcriptome sequencing data." Journal of Molecular Biology (2025): 169049. [https://doi.org/10.1016/j.jmb.2025.169049](https://doi.org/10.1016/j.jmb.2025.169049)
+* Pardo-Palacios, F.J., Arzalluz-Luque, A., Kondratova, L. et al. SQANTI3: curation of long-read transcriptomes for accurate identification of known and novel isoforms. Nature Methods (2024). [https://doi.org/10.1038/s41592-024-02229-2](https://doi.org/10.1038/s41592-024-02229-2)
+
+
+### Back
+
+Back to [main page](../index.md).

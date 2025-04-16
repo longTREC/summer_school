@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Page title
+title: Day 3
 schemadotorg:
   "@context": http://schema.org/
   "@type": CreativeWork
@@ -12,18 +12,19 @@ schemadotorg:
 
 <img src="../assets/logos/LongTREC_logo_FINAL.png" width="200" />
 
-# Day 3
+# Day 3 Agenda
 
 ## Goals
-Morning session:
-* To learn how long-read RNA-seq can be used for differential isofrom expression/usage analysis and what are the current challenges
-* To learn about specific chase of expression analysis: allele-specific expression analysis
+**Morning session: Differential expression analysis**
+* To learn how long-read RNA-seq can be used for differential isoform expression/usage analysis and what are the current challenges
+* To learn about specific case of expression analysis: allele-specific expression analysis
 
-Afternoon session:
+**Afternoon session: RNA modifications**
 * Learn how long read sequencing technologies are utilized for the study of RNA modifications
 * Hands-on session for the study of the tRNAome
 
 ## Timetable
+
 | Time | Activity | Details | Literature |
 |------|---------|---------|------------|
 | 9:00 - 9:30 | How to build your expression matrix and concept of DE analysis vs DIU | call and join, join and call |  |
@@ -38,17 +39,33 @@ Afternoon session:
 | 15:30 - 16:30 | Hands-on | Downstream processing: filtering, quality control, batch effect investigation, differential expression, diffenetial modifications | Tools: _AMaNITA_ |
 | 16:30 - 17:00 | Closing remarks | Additional pipelines; modification-aware basecallers | |
 
-## Learning objectives
+## Learning Objectives
 
-Morning session:
+**Morning session: Differential expression analysis**
 - understand the difficulties of assigning reads to isoforms
 - understand biological mechanisms of allelic imbalance
 - understand different sources of bias in allele-specific expression analysis
 
-Afternoon session:
+**Afternoon session: RNA modifications**
 - understand the past and current challenges in the epitranscriptomics field
 - understand why and how long-reads sequencing technologies are utilized for RNA modification detection
 - familiarize with tools for epitranscriptomics data analysis
+
+
+## Materials
+* (here we will put links to the slides)
+
+
+## Data
+* 
+
+
+## Recommended Bibliography
+*
+*
+*
+*
+
 
 ### Back
 
