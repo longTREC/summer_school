@@ -73,8 +73,8 @@ schemadotorg:
 
 
 ## Recommended Bibliography
-*
-*
+* Gupta, P., O’Neill, H., Wolvetang, E.J., Chatterjee, A., Gupta, I., 2024. Advances in single-cell long-read sequencing technologies. NAR Genomics and Bioinformatics 6, lqae047. https://doi.org/10.1093/nargab/lqae047
+* Heumos, L., Schaar, A.C., Lance, C., Litinetskaya, A., Drost, F., Zappia, L., Lücken, M.D., Strobl, D.C., Henao, J., Curion, F., Schiller, H.B., Theis, F.J., 2023. Best practices for single-cell analysis across modalities. Nat Rev Genet 24, 550–572. https://doi.org/10.1038/s41576-023-00586-w
 *
 *
 
