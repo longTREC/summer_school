@@ -30,11 +30,33 @@ schemadotorg:
   # Contributor info
   contributor:
     - "@type": Person
-      name: "CO-AUTHOR_1"
+      name: "Ana Conesa"
     - "@type": Person
-      name: "CO-AUTHOR_2"
+      name: "Carolina Monzó"
     - "@type": Person
-      name: "CO-AUTHOR_3"
+      name: "Juan Francisco Servilla"
+    - "@type": Person
+      name: "Satrio Benowo"
+    - "@type": Person
+      name: "Sami Aydın"
+    - "@type": Person
+      name: "Fabio Zanarello"
+    - "@type": Person
+      name: "Nadja Nolte"
+    - "@type": Person
+      name: "Eamon McAndrew"
+    - "@type": Person
+      name: "Yalan Bi"
+    - "@type": Person
+      name: "Carmen Lafuente"
+    - "@type": Person
+      name: "Leda Katopodi"
+    - "@type": Person
+      name: "Pablo Angulo"
+    - "@type": Person
+      name: "Tian-Yuan Liu"
+    - "@type": Person
+      name: "Fabian Jetzinger"
 
   # License & Language & url
   license: https://creativecommons.org/licenses/by/4.0/
@@ -45,9 +67,9 @@ schemadotorg:
 
 ## Course Description
 
-Welcome to the LongTREC Bioinformatics Summer School on Analysis of Long-Reads Technology Data.
+Welcome to the LongTREC Bioinformatics Summer School on the Analysis of Long-Reads Technology Data.
 
-We have organized a comprehensive 4-day course designed for master's students, doctoral candidates, and early career postdoctoral fellows interested in exploring the exciting world of long-read RNA sequencing. Throughout this course, you will be introduced to a diverse range of topics—from fundamental technologies and basic data processing to advanced applications including long-read transcriptomics, single-cell analysis, and many other exciting topics.
+We have organized a comprehensive 4-day course designed for master's students, doctoral candidates, and early career postdoctoral fellows interested in exploring the exciting world of long-read RNA sequencing. Throughout this course, you will be introduced to a diverse range of topics — from fundamental technologies and basic data processing to advanced applications including long-read transcriptomics, single-cell analysis, and many other exciting topics.
 
 ## Target Audience
 
@@ -75,7 +97,7 @@ This training is specifically designed for early career researchers who are:
 
 ## Workshop Schedule
 
-### Day 1 - 14 July 2025 | Foundation Day
+### Day 1 - 14 July 2025 | [Foundation Day](./pages/day1.md)
 
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
@@ -83,7 +105,7 @@ This training is specifically designed for early career researchers who are:
 | 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                            |
 | 13:30 - 17:00 | **Hands-on**: Different long-read mappers and QC evaluation with SQANTI-reads               |
 
-### Day 2 - 15 July 2025 | Transcript Analysis Day
+### Day 2 - 15 July 2025 | [Transcript Analysis Day](./pages/day2.md)
 
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
@@ -91,15 +113,15 @@ This training is specifically designed for early career researchers who are:
 | 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                            |
 | 13:30 - 17:00 | **Lecture & Hands-on**: Evaluation of structural annotation using long reads RNA sequencies       |
 
-### Day 3 - 16 July 2025 | Advanced Analysis Day
+### Day 3 - 16 July 2025 | [Advanced Analysis Day](./pages/day3.md)
 
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | [**Lecture & Hands-on**: Differential expression and haplotype analysis using long reads](https://github.com/longTREC/summer_school/blob/master/pages/day3_morning.md) |
+| 09:00 - 12:30 | **Lecture & Hands-on**: Differential expression and haplotype analysis using long reads |
 | 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                          |
 | 13:30 - 17:00 | **Lecture & Hands-on**: RNA modifications with long reads                                  |
 
-### Day 4 - 17 July 2025 | Specialized Applications Day
+### Day 4 - 17 July 2025 | [Specialized Applications Day](./pages/day4.md)
 
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
@@ -110,9 +132,13 @@ This training is specifically designed for early career researchers who are:
 
 ---
 
-### Learning objectives
-
 ### Instructors
+
+[Ana Conesa](https://www.linkedin.com/in/ana-conesa-557b1a12/)
+
+[Carolina Monzó](https://www.linkedin.com/in/carolina-monz%C3%B3-944762134/)
+
+[LongTREC Fellows](https://longtrec.eu/fellows/)
 
 ---
 

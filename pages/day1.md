@@ -1,4 +1,16 @@
-![LongTREC Logo](../assets/logos/LongTREC_logo_FINAL.png)
+---
+layout: page
+title: Day 1
+schemadotorg:
+  "@context": http://schema.org/
+  "@type": CreativeWork
+  "genre": TrainingMaterial
+  isPartOf:
+      url: "https://longtrec.github.io/summer_school/"
+      name: "LongTREC summer school - long-read transcriptomics"
+---
+
+<img src="../assets/logos/LongTREC_logo_FINAL.png" width="200" />
 
 # Day 1 Agenda
 
@@ -10,6 +22,7 @@
 * Critically evaluate and interpret analysis results: Compare outcomes from different mapping tools and QC analyses, linking findings back to experimental design choices and library preparation methods.
 
 ## Timetable
+
 | Time          | Activity                | Details                                                                                                                                       |
 | --------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 09:00 - 09:10 | Introduction & Objectives         | <u>Ana</u>: Welcome participants, provide an overview of the day, outline learning objectives, and conduct a quick interactive poll (e.g., "Have you used PacBio or ONT before?")                                                                                                     |
@@ -30,7 +43,7 @@
 | 17:05 - 17:15 | Wrap-up & Next Steps                           | <u>Tian, Sami, Satrio & Carolina</u>: Conclude the day with a recap of key takeaways: long-read platform comparison, experimental design strategies, mapping techniques, and QC interpretation. Discuss next steps, provide further resources, and possibly close with a final poll or quiz to reinforce learning                                                                                                                                                         |
 
 
-## Learning Outcomes
+## Learning Objectives
 * Understand the fundamental principles, advantages, and limitations of PacBio and Nanopore long-read sequencing technologies.
 * Evaluate the trade-offs between different long-read platforms, read lengths, and sequencing depths for specific experimental goals.
 * Design appropriate long-read RNA-seq experiments, considering factors like sample replication, library preparation strategy (cDNA vs. direct RNA), and multiplexing.
@@ -52,8 +65,12 @@
 
 
 ## Recommended Bibliography
-* Monzó, C., Liu, T. & Conesa, A. Transcriptomics in the era of long-read sequencing. Nature Reviews Genetics (2025). https://doi.org/10.1038/s41576-025-00828-z
+* Monzó, C., Liu, T. & Conesa, A. Transcriptomics in the era of long-read sequencing. Nature Reviews Genetics (2025). [https://doi.org/10.1038/s41576-025-00828-z](https://doi.org/10.1038/s41576-025-00828-z)
 * Li, H. Minimap2: pairwise alignment for nucleotide sequences. Bioinformatics (2018). https://doi.org/10.1093/bioinformatics/bty191
-* Sahlin, K., Makinen, V. Accurate spliced alignment of long RNA sequencing reads. Bioinformatics (2021). https://doi.org/10.1093/bioinformatics/btab540
-* Pardo-Palacios, F.J., Arzalluz-Luque, A., Kondratova, L. et al. SQANTI3: curation of long-read transcriptomes for accurate identification of known and novel isoforms. Nature Methods (2024). https://doi.org/10.1038/s41592-024-02229-2
-* Keil, N., Monzo, C., McIntyre, L., Conesa, A. Quality assessment of long read data in multisample lrRNA-seq experiments using SQANTI-reads. Genome Research (2025). https://doi.org/10.1101/gr.280021.124
+* Sahlin, K., Makinen, V. Accurate spliced alignment of long RNA sequencing reads. Bioinformatics (2021). [https://doi.org/10.1093/bioinformatics/btab540](https://doi.org/10.1093/bioinformatics/btab540)
+* Pardo-Palacios, F.J., Arzalluz-Luque, A., Kondratova, L. et al. SQANTI3: curation of long-read transcriptomes for accurate identification of known and novel isoforms. Nature Methods (2024). [https://doi.org/10.1038/s41592-024-02229-2](https://doi.org/10.1038/s41592-024-02229-2)
+* Keil, N., Monzo, C., McIntyre, L., Conesa, A. Quality assessment of long read data in multisample lrRNA-seq experiments using SQANTI-reads. Genome Research (2025). [https://doi.org/10.1101/gr.280021.124](https://doi.org/10.1101/gr.280021.124)
+
+### Back
+
+Back to [main page](../index.md).

@@ -1,3 +1,17 @@
+---
+layout: page
+title: Day 4
+schemadotorg:
+  "@context": http://schema.org/
+  "@type": CreativeWork
+  "genre": TrainingMaterial
+  isPartOf:
+      url: "https://longtrec.github.io/summer_school/"
+      name: "LongTREC summer school - long-read transcriptomics"
+---
+
+<img src="../assets/logos/LongTREC_logo_FINAL.png" width="200" />
+
 # Day 4 Agenda
 
 ## Goals
@@ -14,6 +28,7 @@
 
 
 ## Timetable
+
 | Time          | Activity                | Details                                                                                                                                       |
 | --------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 09:00 - 09:10 | Introduction & Objectives         | <u>Eamon</u>: Introduction                                                                                                     |
@@ -62,3 +77,7 @@
 *
 *
 *
+
+### Back
+
+Back to [main page](../index.md).
