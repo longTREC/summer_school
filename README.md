@@ -53,17 +53,17 @@ This training is specifically designed for early career researchers who are:
 
 | Time          | Session                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | **Lecture**:  <br><br> Different long-read sequencing technologies, experimental design, quality, mapping  <br><br> **Lecturers:** Sami, Satrio and Carol <br><br> **Learning Objective:**  |
+| 09:00 - 12:30 | **Lecture**:  <br><br> Different long-read sequencing technologies, experimental design, quality, mapping  <br><br> **Lecturers:** Carol, Satrio, Sami and Tian <br><br> **Learning Objective:**  |
 | 12:30 - 13:30 | *Lunch Break*                                                                               |
-| 13:30 - 17:00 | **Hands-on**: <br><br> Different long-read mappers and QC evaluation with SQANTI-reads <br><br> **Lecturers:** Yalan, Fabien and Fabio <br><br> **Learning Objective:**  |
+| 13:30 - 17:00 | **Hands-on**: <br><br> Different long-read mappers and QC evaluation with SQANTI-reads <br><br> **Lecturers:** Sami and Tian <br><br> **Learning Objective:**  |
 
 ### Day 2 - 15 July 2025 | Transcript Analysis Day
 
 | Time          | Session                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | **Lecture & Hands-on**: <br><br> Transcript identification and quantification using long reads <br><br> **Lecturers:** Fabio and Ana <br><br> **Learning Objective:**  |
+| 09:00 - 12:30 | **Lecture & Hands-on**: <br><br> Transcript identification and quantification using long reads <br><br> **Lecturers:** Fabio, Ana, Fabian and Yalan <br><br> **Learning Objective:**  |
 | 12:30 - 13:30 | *Lunch Break*                                                                               |
-| 13:30 - 17:00 | **Lecture & Hands-on**: <br><br> Evaluation of structural annotation using long reads RNA sequences <br><br> **Lecturers:** Fabio and Ana <br><br> **Learning Objective:**  |
+| 13:30 - 17:00 | **Lecture & Hands-on**: <br><br> Evaluation of structural annotation using long reads RNA sequences <br><br> **Lecturers:** Fabio, Ana, Fabian and Yalan <br><br> **Learning Objective:**  |
 
 ### Day 3 - 16 July 2025 | Advanced Analysis Day
 
