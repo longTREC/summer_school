@@ -4,10 +4,12 @@ channels:
   - conda-forge
 dependencies:
   - python=3.13
-  - agat==1.4.0
+  - agat==1.4.2
   - samtools==1.21
   - bedtools==2.31.1
   - minimap2==2.29
+  - ipykernel==6.29.5
+  - nextflow==25.04.2
   - pip
   - pip:
       - jupyterlab==4.4.2
