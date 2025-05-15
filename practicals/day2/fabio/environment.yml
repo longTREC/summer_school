@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.13
-  - agat==1.4.2
+  # - agat==1.4.2
   - samtools==1.21
   - bedtools==2.31.1
   - minimap2==2.29

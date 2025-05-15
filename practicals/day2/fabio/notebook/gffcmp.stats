@@ -1,0 +1,15 @@
+# gffcompare v0.12.6 | Command line was:
+#gffcompare -C -p geneid_informed ../intermediate/geneid_fw.gff3 ../intermediate/geneid_rw.gff3
+#
+
+#= Summary for dataset: ../intermediate/geneid_fw.gff3 
+#     Query mRNAs :    2914 in    2914 loci  (2321 multi-exon transcripts)
+#            (0 multi-transcript loci, ~1.0 transcripts per locus)
+
+#= Summary for dataset: ../intermediate/geneid_rw.gff3 
+#     Query mRNAs :    2914 in    2914 loci  (2321 multi-exon transcripts)
+#            (0 multi-transcript loci, ~1.0 transcripts per locus)
+
+ Total union super-loci across all input datasets: 2914 
+  (0 multi-transcript, ~1.0 transcripts per locus)
+2914 out of 2914 consensus transcripts written in gffcmp.combined.gtf (0 discarded as redundant)
