@@ -125,7 +125,7 @@ This training is specifically designed for early career researchers who are:
 
 | Time          | Session                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | **Lecture & Hands-on**: Single-cell and spatial transcriptomics with long reads           |
+| 09:00 - 12:30 | **Lecture & Hands-on**: Single-cell transcriptomics with long reads           |
 | 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                              |
 | 13:30 - 17:00 | **Lecture & Hands-on**: Metatranscriptomics with long reads                               |
 
