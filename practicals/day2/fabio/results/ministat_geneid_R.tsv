@@ -1,0 +1,5 @@
+Feature	Features_Count	Total_Feature_Length	Average_Feature_Length	Genome_Percentage
+mRNA	2964	7204372	2430.62	69.99
+exon	13609	3484242	256.02	33.85
+CDS	13609	3484242	256.02	33.85
+gene	2964	7204372	2430.62	69.99
