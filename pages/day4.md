@@ -44,9 +44,9 @@ schemadotorg:
 | 14:00 - 15:00 | Metatranscriptomics workflow  | <u>Carmen</u>: Understand all steps of the metatranscriptomic workflow: Experimental design, RNA extraction and purification, library preparation  (prokaryotic vs eukaryotic), RNASeq, Filtering and QC, Downstream analysis (mapping and quantification, taxonomic classification, functional annotation).        |
 | 15:00 - 15:30 | Coffee Break & Group Discussion    | Break and open discussion |
 | 15:30 - 15:45 | Practical Setup & Dataset Overview    | <u>Carmen</u>: Description of environmental samples, sequencing platform used, introduction to data files, preview of analysis tasks.                                                                                                                                                       |
-| 15:45 - 16:15 | Task 1: Mapping | <u>Carmen</u>: Mapping metatranscriptomic reads to MAGs, reference genomes and metagenomic readset. Handling alignment files (different types of alignments, CIGAR and MD, orientation challenges).                                                               |
+| 15:45 - 16:15 | Task 1:  | <u>Carmen</u>: Pre-processing metatranscriptomic reads.                                                               |
 | 16:15 - 16:30 | Q&A Break | Open discussion, troubleshooting, clarification of Task1.                                                                                                                                                      |
-| 16:30 - 17:00 | Task 2: Taxonomic Diversity adn Functional Activity | <u>Carmen</u>: Taxonomic analysis: Species richness and diversity. Functional analysis: Determine which biological processes or pathways are actively expressed in different environments. 
+| 16:30 - 17:00 | Task 2 & 3: Mapping, Taxonomic assignation and Functional analysis | <u>Carmen</u>: Mapping metatranscriptomic reads, handling alignment files, perform taxonomic assignation and functional analysis.
 
 
 ## Learning Outcomes
@@ -60,7 +60,6 @@ schemadotorg:
 * Understand what is metatranscriptomics workflow from RNA extraction to data interpretation
 * Recognize challenges and biases regarding metatranscriptomics
 * Perform quality control of raw metatranscriptomic reads
-* Understand the differences when mapping filtered metatranscriptomic long reads to different references
 * Explore taxonomic diversity in different communities and characterise active functions
 
 
