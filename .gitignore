@@ -1,3 +1,6 @@
+.virtual_documents
+.nextflow
+.nextflow.*
 .DS_Store
 .ipynb_checkpoints
 bin
