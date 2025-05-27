@@ -1,3 +1,10 @@
-work
 .DS_Store
 .ipynb_checkpoints
+bin
+compann
+compann-nf
+intermediate
+old
+results
+tmp
+work
