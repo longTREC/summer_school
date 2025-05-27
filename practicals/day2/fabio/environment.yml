@@ -4,7 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.13
-  # - agat==1.4.2
   - samtools==1.21
   - bedtools==2.31.1
   - minimap2==2.29
@@ -17,3 +16,4 @@ dependencies:
       - numpy==2.2.3
       - pandas==2.2.3
       - seaborn==0.13.2
+      - igv-notebook==0.6.2
