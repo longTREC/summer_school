@@ -1,8 +1,0 @@
-Feature	Features_Count	Total_Feature_Length	Average_Feature_Length	Genome_Percentage
-three_prime_UTR	6	337	56.17	0.00
-mRNA	68	50091	736.63	0.25
-five_prime_UTR	6	582	97.00	0.00
-gene	68	50091	736.63	0.25
-exon	106	41385	390.42	0.21
-intron	38	8706	229.11	0.04
-CDS	104	40466	389.10	0.20

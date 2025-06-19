@@ -1,6 +1,0 @@
-Feature	Features_Count	Total_Feature_Length	Average_Feature_Length	Genome_Percentage
-mRNA	1245	13590369	10915.96	67.57
-gene	1245	13590369	10915.96	67.57
-exon	5148	1820607	353.65	9.05
-intron	3903	11769762	3015.57	58.52
-CDS	5148	1820607	353.65	9.05
