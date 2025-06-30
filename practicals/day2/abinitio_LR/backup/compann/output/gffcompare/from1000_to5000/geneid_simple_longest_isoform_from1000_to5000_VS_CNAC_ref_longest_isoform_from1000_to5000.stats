@@ -1,0 +1,30 @@
+# gffcompare v0.12.9 | Command line was:
+#gffcompare -T -r geneid_simple_longest_isoform_from1000_to5000.gff3 CNAC_ref_longest_isoform_from1000_to5000.gff3
+#
+
+#= Summary for dataset: CNAC_ref_longest_isoform_from1000_to5000.gff3 
+#     Query mRNAs :     306 in     214 loci  (191 multi-exon transcripts)
+#            (76 multi-transcript loci, ~1.4 transcripts per locus)
+# Reference mRNAs :     400 in     400 loci  (308 multi-exon)
+# Super-loci w/ reference transcripts:       87
+#-----------------| Sensitivity | Precision  |
+        Base level:    17.6     |    26.0    |
+        Exon level:    13.4     |    18.3    |
+      Intron level:    18.6     |    25.2    |
+Intron chain level:     9.7     |    15.7    |
+  Transcript level:     7.5     |     9.8    |
+       Locus level:     7.5     |    14.0    |
+
+     Matching intron chains:      30
+       Matching transcripts:      30
+              Matching loci:      30
+
+          Missed exons:     762/976	( 78.1%)
+           Novel exons:     453/714	( 63.4%)
+        Missed introns:     436/576	( 75.7%)
+         Novel introns:     276/424	( 65.1%)
+           Missed loci:     311/400	( 77.8%)
+            Novel loci:     125/214	( 58.4%)
+
+ Total union super-loci across all input datasets: 212 
+306 out of 306 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)
