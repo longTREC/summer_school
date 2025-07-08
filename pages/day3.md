@@ -20,7 +20,7 @@ schemadotorg:
 * To learn about specific case of expression analysis: allele-specific expression analysis
 
 **Afternoon session: RNA modifications**
-* Learn how long read sequencing technologies are utilized for the study of RNA modifications
+* Learn how long-read sequencing technologies are utilized for the study of RNA modifications
 * Hands-on session for the study of the tRNAome
 
 ## Timetable
