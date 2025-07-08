@@ -1,0 +1,15 @@
+.virtual_documents
+.nextflow
+.nextflow.*
+.DS_Store
+.ipynb_checkpoints
+.virtual_documents/notebook/geneid.ipynb
+bin
+compann
+LRsupport
+compann-nf
+intermediate
+old
+results
+tmp
+work

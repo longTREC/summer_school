@@ -1,0 +1,68 @@
+{
+    "parameters": {
+        "out_path": "/Users/fzanarello/work/projects/summer_school/practicals/day2/fabio/work/8b/4a9801804afc19a652de9b74a0bcdd",
+        "cpu": "4",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/Users/fzanarello/work/projects/summer_school/practicals/day2/fabio/work/8b/4a9801804afc19a652de9b74a0bcdd/busco_downloads",
+        "datasets_version": "odb12",
+        "offline": "True",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "in": "/Users/fzanarello/work/projects/summer_school/practicals/day2/fabio/work/8b/4a9801804afc19a652de9b74a0bcdd/geneid_S_transcripts.fa",
+        "out": "BUSCO_geneid_S_transcripts.fa",
+        "mode": "proteins",
+        "lineage_dataset": "/Users/fzanarello/work/projects/summer_school/practicals/day2/fabio/work/43/cc80f9b9d5ddd3a75740054dd6e9f7/dw_lineage/lineages/lepidoptera_odb12",
+        "main_out": "/Users/fzanarello/work/projects/summer_school/practicals/day2/fabio/work/8b/4a9801804afc19a652de9b74a0bcdd/BUSCO_geneid_S_transcripts.fa",
+        "lineage_results_dir": "run_lepidoptera_odb12",
+        "domain": "eukaryota",
+        "ncbi_taxid": "7088",
+        "orthodb_version": "12.0",
+        "dataset_version": "01"
+    },
+    "lineage_dataset": {
+        "name": "lepidoptera_odb12",
+        "creation_date": "2025-04-11",
+        "number_of_buscos": "5760",
+        "number_of_species": "79"
+    },
+    "versions": {
+        "hmmsearch": 3.4,
+        "python": [
+            3,
+            12,
+            10,
+            "final",
+            0
+        ],
+        "busco": "5.8.3"
+    },
+    "results": {
+        "one_line_summary": "C:3.8%[S:3.8%,D:0.0%],F:0.7%,M:95.5%,n:5760",
+        "Complete percentage": 3.8,
+        "Complete BUSCOs": 219,
+        "Single copy percentage": 3.8,
+        "Single copy BUSCOs": 219,
+        "Multi copy percentage": 0.0,
+        "Multi copy BUSCOs": 0,
+        "Fragmented percentage": 0.7,
+        "Fragmented BUSCOs": 39,
+        "Missing percentage": 95.5,
+        "Missing BUSCOs": 5502,
+        "n_markers": 5760,
+        "avg_identity": null,
+        "domain": "eukaryota",
+        "internal_stop_codon_count": 0,
+        "internal_stop_codon_percent": 0
+    }
+}
