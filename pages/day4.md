@@ -15,10 +15,10 @@ schemadotorg:
 # Day 4 Agenda
 
 ## Goals
-**Morning session: Single-cell transcriptomics with long reads** 
+**Morning session: Single-cell transcriptomics with long-reads** 
 * Learn the differences between bulk experiments and single-cell experiments (library preparation and data)
-* Understand the different steps involved in going from Long Sequncing Reads to gene and isoform matrices.
-* Learn the basics of tertiary analysis for single cell data with focus on long read specific steps.
+* Understand the different steps involved in going from Long Sequencing Reads to gene and isoform matrices.
+* Learn the basics of tertiary analysis for single cell data with focus on long-read specific steps.
 
 
 **Afternoon session: Metatranscriptomics** 
@@ -32,7 +32,7 @@ schemadotorg:
 | Time          | Activity                | Details                                                                                                                                       |
 | --------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 09:00 - 09:10 | Introduction & Objectives         | <u>Eamon</u>: Introduction                                                                                                     |
-| 09:10 - 09:25 | Long Read Single-cell Library Preparation    | <u>Fran</u>:  Differences between bulk library preparation and single-cell library preparation.                                                                                                            |
+| 09:10 - 09:25 | Long-Read Single-cell Library Preparation    | <u>Fran</u>:  Differences between bulk library preparation and single-cell library preparation.                                                                                                            |
 | 09:25 - 09:30 | Break       |                                                                                                                                                                    |
 | 09:30 - 10:00 | Preprocessing and QC    | <u>Fran</u>: Commercial analysis pipelines available, overview of the analysis steps and additional tools available.                                                                                          |
 | 10:00 - 10:30 | Coffee Break       | Break                                                                                                                                                                    |
