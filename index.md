@@ -86,10 +86,10 @@ This training is specifically designed for early career researchers who are:
   * Quality control evaluation using SQANTI-reads
 
 * **Analysis & Applications**
-  * Transcript identification and quantification using long reads
+  * Transcript identification and quantification using long-reads
   * Structural annotation evaluation  
   * Differential expression analysis and haplotype identification
-  * RNA modifications detection with long reads
+  * RNA modifications detection with long-reads
 
 * **Advanced Topics**
   * Single-cell and spatial transcriptomics approaches
@@ -111,7 +111,7 @@ This training is specifically designed for early career researchers who are:
 |---------------|--------------------------------------------------------------------------------------------|
 | 09:00 - 12:30 | **Lecture & Hands-on**: Transcript identification and quantification using long reads      |
 | 12:30 - 13:30 | [*Lunch Break*](/assets/images/lunch.webp)                                                                            |
-| 13:30 - 17:00 | **Lecture & Hands-on**: Evaluation of structural annotation using long reads RNA sequencies       |
+| 13:30 - 17:00 | **Lecture & Hands-on**: Evaluation of structural annotation using long reads RNA sequences       |
 
 ### Day 3 - 16 July 2025 | [Advanced Analysis Day](./pages/day3.md)
 

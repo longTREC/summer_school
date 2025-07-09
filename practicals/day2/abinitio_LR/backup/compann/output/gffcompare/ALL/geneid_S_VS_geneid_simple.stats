@@ -1,0 +1,30 @@
+# gffcompare v0.12.9 | Command line was:
+#gffcompare -T -r geneid_S.gff3 geneid_simple.gff3
+#
+
+#= Summary for dataset: geneid_simple.gff3 
+#     Query mRNAs :    1245 in    1245 loci  (961 multi-exon transcripts)
+#            (0 multi-transcript loci, ~1.0 transcripts per locus)
+# Reference mRNAs :    1330 in    1326 loci  (1029 multi-exon)
+# Super-loci w/ reference transcripts:     1227
+#-----------------| Sensitivity | Precision  |
+        Base level:    85.2     |    98.6    |
+        Exon level:    89.0     |    91.2    |
+      Intron level:    93.3     |    94.2    |
+Intron chain level:    78.6     |    84.2    |
+  Transcript level:    60.8     |    65.0    |
+       Locus level:    61.0     |    65.0    |
+
+     Matching intron chains:     809
+       Matching transcripts:     809
+              Matching loci:     809
+
+          Missed exons:     256/5272	(  4.9%)
+           Novel exons:     121/5148	(  2.4%)
+        Missed introns:      78/3942	(  2.0%)
+         Novel introns:      85/3903	(  2.2%)
+           Missed loci:      38/1326	(  2.9%)
+            Novel loci:      14/1245	(  1.1%)
+
+ Total union super-loci across all input datasets: 1241 
+1245 out of 1245 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)
