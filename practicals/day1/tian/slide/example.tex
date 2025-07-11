@@ -1,0 +1,81 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{beamerthemeLongTREC}
+\usepackage{lipsum}
+
+% Title page information
+\subtitle{Long-reads Transcriptomics}
+\author{Presenter Name}
+\institute{Earlham Institute, Norwich, UK}
+\date{\today}
+
+\begin{document}
+
+% Title slide
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+% TOC slide
+\tocframe
+
+% Section slide
+\section{Introduction to Long-read Technologies}
+
+% Add more sections and subsections for TOC demo
+\section{Long-read Sequencing Platforms}
+\subsection{Oxford Nanopore}
+\subsection{PacBio SMRT}
+
+\section{Bioinformatics Analysis}
+\subsection{Basecalling}
+\subsection{Transcriptome Assembly}
+\subsection{Error Correction}
+
+\section{Applications}
+\subsection{Isoform Discovery}
+\subsection{Fusion Gene Detection}
+\subsection{Epitranscriptomics}
+
+% Content slide
+\begin{frame}
+  \frametitle{Long-reads Transcriptomics}
+  
+  \begin{columns}[T]
+    \begin{column}{\textwidth}
+      {\usebeamercolor[fg]{structure}\usebeamerfont{block title}Introduction to Long-read Sequencing}
+      \vspace{0.1cm}
+      
+      \begin{itemize}
+        \item Third generation sequencing technologies enable single-molecule sequencing
+        \item Long-read RNA sequencing (lrRNA-seq) has displayed great potential for transcriptome analysis
+        \item Applications include isoform identification, fusion gene detection, and allele-specific expression
+        \item Computational challenges require specialized bioinformatics approaches
+        \item LongTREC consortium develops methods and tools for long-read transcriptomics data analysis
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% Data slide
+\dataframe{Data Analysis Results}{
+  \begin{tikzpicture}
+    \draw[dashed] (0,0) rectangle (6,4);
+    \node at (3,2) {[Chart Area: Insert data visualization here]};
+  \end{tikzpicture}
+}{
+  The chart demonstrates the \textbf{\textcolor{longtrec-blue}{key advantages}} of long-read sequencing compared to short-read technologies:
+  
+  \begin{itemize}
+    \item Improved isoform detection
+    \item Better handling of repetitive regions
+    \item Direct detection of modifications
+  \end{itemize}
+  
+  \textit{\textcolor{longtrec-gray}{Data source: LongTREC consortium research, 2024}}
+}
+
+% Thank you slide
+\thankyouframe{For more information about the LongTREC Summer School:}{https://longtrec.eu}
+
+\end{document}

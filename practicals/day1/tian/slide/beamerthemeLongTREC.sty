@@ -1,0 +1,242 @@
+\ProvidesPackage{beamerthemeLongTREC}[2025/05/23 v1.0 LongTREC Beamer Theme]
+
+% Required packages
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{etoolbox}
+\RequirePackage{calc}
+
+% Set global text margins to avoid content running too close to edges
+\setbeamersize{text margin left=1cm,text margin right=1cm}
+
+% Define colors
+\definecolor{longtrec-blue}{HTML}{0047AB}
+\definecolor{longtrec-darkblue}{HTML}{003380}
+\definecolor{eu-blue}{HTML}{003399} % EU Blue color
+\definecolor{longtrec-orange}{HTML}{FF8C00}
+\definecolor{longtrec-gray}{HTML}{666666}
+\definecolor{longtrec-lightgray}{HTML}{F5F5F5}
+\definecolor{longtrec-darkgray}{HTML}{333333}
+
+% Set beamer colors
+\setbeamercolor{structure}{fg=longtrec-blue}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{frametitle}{fg=white, bg=longtrec-blue}
+\setbeamercolor{section in toc}{fg=longtrec-darkgray}
+\setbeamercolor{subsection in toc}{fg=longtrec-darkgray}
+\setbeamercolor{item}{fg=longtrec-orange}
+\setbeamercolor{block title}{fg=white, bg=longtrec-blue}
+\setbeamercolor{block body}{bg=longtrec-lightgray}
+\setbeamercolor{normal text}{fg=longtrec-darkgray}
+\setbeamercolor{alerted text}{fg=longtrec-orange}
+\setbeamercolor{footer}{fg=longtrec-gray, bg=longtrec-lightgray}
+\setbeamercolor{footer text}{fg=longtrec-gray}
+\setbeamercolor{page number}{fg=longtrec-gray}
+
+% Set fonts
+\usefonttheme{professionalfonts}
+\setbeamerfont{title}{size=\LARGE, series=\bfseries}
+\setbeamerfont{subtitle}{size=\Large}
+\setbeamerfont{frametitle}{size=\large, series=\bfseries}
+\setbeamerfont{section in toc}{size=\large}
+\setbeamerfont{subsection in toc}{size=\normalsize}
+\setbeamerfont{item}{size=\normalsize}
+\setbeamerfont{block title}{size=\large, series=\bfseries}
+\setbeamerfont{footer text}{size=\footnotesize}
+\setbeamerfont{page number}{size=\footnotesize, series=\bfseries}
+
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Custom bullet points
+\setbeamertemplate{itemize item}{%
+  \tikz\draw[longtrec-orange,fill=longtrec-orange] (0,0) circle (0.1em);
+}
+\setbeamertemplate{itemize subitem}{%
+  \tikz\draw[longtrec-orange,fill=longtrec-orange] (0,0) circle (0.08em);
+}
+
+% Custom TOC
+\setbeamertemplate{section in toc}{%
+  \leavevmode\leftskip=2em%
+  \llap{%
+    \usebeamercolor[fg]{item}%
+    \usebeamerfont{item}%
+    \inserttocsectionnumber.~\kern0.75em\hbox{}%
+  }%
+  \inserttocsection\par%
+}
+
+% Active TOC item
+\newcommand{\highlighttoc}{%
+  \setbeamertemplate{section in toc}[default]%
+  \setbeamercolor{section in toc}{fg=longtrec-blue, bg=white}%
+  \setbeamercolor{section number projected}{bg=longtrec-orange, fg=white}%
+}
+
+% Footer template
+\setbeamertemplate{footline}{%
+  \begin{beamercolorbox}[wd=\paperwidth, ht=3ex, dp=2ex, leftskip=1em, rightskip=1em]{footer}
+    \usebeamerfont{footer text}%
+    \insertshorttitle\hfill%
+    \usebeamercolor[fg]{page number}\usebeamerfont{page number}%
+    \insertframenumber%
+  \end{beamercolorbox}%
+}
+
+% Title page
+\setbeamertemplate{title page}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    % Background gradient - using EU blue as main color
+    \fill[left color=eu-blue, right color=longtrec-darkblue] 
+      (current page.south west) rectangle (current page.north east);
+    % Content
+    \begin{scope}[text=white]
+      % Logo container
+      \node[anchor=north west, xshift=1cm, yshift=-1cm] at (current page.north west) {
+        \includegraphics[height=1.5cm]{images/longtrec_white_logo.png}
+      };
+      \node[anchor=north east, xshift=-1cm, yshift=-1cm] at (current page.north east) {
+        \includegraphics[height=1cm]{images/eu_white_logo.png}
+      };
+      % Title
+      \node[anchor=north, align=center, font=\huge\bfseries, yshift=-3.5cm] at (current page.north) {
+        \inserttitle
+      };
+      % Subtitle
+      \node[anchor=north, align=center, font=\large, yshift=-5cm] at (current page.north) {
+        \insertsubtitle
+      };
+      % Author
+      \node[anchor=north, align=center, font=\normalsize\itshape, yshift=-6cm] at (current page.north) {
+        \insertauthor
+      };
+      % Institute (with accent box)
+      \node[anchor=north, yshift=-7cm] at (current page.north) {
+        \begin{tikzpicture}
+          \node[fill=longtrec-orange, text=white, rounded corners=2pt, inner sep=5pt] {
+            \insertinstitute
+          };
+        \end{tikzpicture}
+      };
+      % Footer (move further down)
+      \node[anchor=south, align=center, font=\footnotesize, yshift=0.2cm] at (current page.south) {
+        LongTREC - The Long-reads TRanscriptome European Consortium\\
+        Marie Sk\l{}odowska-Curie grant agreement No 101072892
+      };
+    \end{scope}
+  \end{tikzpicture}
+}
+
+% Section page
+\newcommand{\sectionframe}[2][]{%
+  \begin{frame}[plain]
+    \begin{tikzpicture}[remember picture, overlay]
+      % Full background gradient
+      \fill[left color=eu-blue, right color=longtrec-darkblue, shading angle=135] (current page.south west) rectangle (current page.north east);
+      \begin{scope}[text=white]
+        % Section number (centered)
+        \node[anchor=center, font=\huge\bfseries, text=longtrec-orange, yshift=1.2cm] at (current page.center) {Section \thesection};
+        % Section title (centered, below number)
+        \node[anchor=center, align=center, font=\Huge\bfseries, yshift=0cm] at (current page.center) {#1};
+        % Accent line centered under title
+        \draw[line width=1mm, longtrec-orange] ([yshift=-0.8cm]current page.center) -- ++(-1.5cm,0) -- ++(3cm,0);
+        % Section subtitle (centered, below line)
+        \node[anchor=center, align=center, font=\large, yshift=-2cm] at (current page.center) {#2};
+      \end{scope}
+    \end{tikzpicture}
+  \end{frame}
+}
+
+% Content frame
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip
+  \begin{beamercolorbox}[wd=\paperwidth, ht=4ex, dp=2ex, leftskip=1em, rightskip=1em]{frametitle}
+    \usebeamerfont{frametitle}\insertframetitle
+    \hfill\includegraphics[height=3.5ex]{images/longtrec_white_logo.png}
+  \end{beamercolorbox}%
+  \vskip0.5ex
+}
+
+% TOC frame: blue line matches TOC height
+\newcommand{\tocframe}{%
+  \begin{frame}
+    \frametitle{Course Contents}
+    \vspace*{-0.3em}
+    \begin{minipage}{\textwidth}
+      \begin{tikzpicture}
+        % Draw blue line matching TOC height
+        \node[anchor=north west, inner sep=0pt] (tocbox) at (0,0) {
+          \begin{minipage}{0.95\textwidth}
+            \vspace{0.2cm}
+            % Title
+            \vspace{0.6cm}
+            
+            % Custom TOC with numbered circles
+            {\setbeamertemplate{section in toc}{%
+              \leavevmode\vspace{0.15cm}%
+              \ifnum\inserttocsectionnumber=1%
+                \tikz[baseline=(current bounding box.center)] \node[circle, fill=longtrec-orange, text=white, font=\normalsize\bfseries, minimum size=1.1em, inner sep=0pt] {\inserttocsectionnumber};%
+              \else%
+                \tikz[baseline=(current bounding box.center)] \node[circle, fill=longtrec-blue, text=white, font=\normalsize\bfseries, minimum size=1.1em, inner sep=0pt] {\inserttocsectionnumber};%
+              \fi%
+              \hspace{0.7em}{\large\inserttocsection}\par%
+            }%
+            \setbeamertemplate{subsection in toc}{}%
+            \tableofcontents[hideallsubsections]
+            }
+            \vspace{0.2cm}
+          \end{minipage}
+        };
+        % Thick blue line, height matches tocbox with spacing
+        \draw[line width=8pt, color=longtrec-blue, opacity=0.8] ([xshift=-0.4cm, yshift=-0.8cm]tocbox.north west) -- ([xshift=-0.4cm, yshift=-6.1cm]tocbox.north west);
+      \end{tikzpicture}
+    \end{minipage}
+  \end{frame}
+}
+
+% Data visualization frame
+\newcommand{\dataframe}[3]{%
+  \begin{frame}
+    \frametitle{#1}
+    \begin{columns}[T]
+      \begin{column}{0.6\textwidth}
+        \begin{beamercolorbox}[rounded=true, shadow=true, wd=\textwidth]{block body}
+          \centering
+          \vspace{0.5cm}
+          #2
+          \vspace{0.5cm}
+        \end{beamercolorbox}
+      \end{column}
+      \begin{column}{0.35\textwidth}
+        \vspace{0.5cm}
+        #3
+        \vspace{0.5cm}
+      \end{column}
+    \end{columns}
+  \end{frame}
+}
+
+% Thank you frame: center orange line, spacing fix
+\newcommand{\thankyouframe}[3][]{%
+  \begin{frame}[plain]
+    \begin{tikzpicture}[remember picture, overlay]
+      % Full background gradient
+      \fill[left color=eu-blue, right color=longtrec-darkblue, shading angle=135] (current page.south west) rectangle (current page.north east);
+      \begin{scope}[text=white]
+        % Thank you title (centered)
+        \node[anchor=center, font=\Huge\bfseries, yshift=1.2cm] at (current page.center) {Thank You!};
+        % Accent line centered under title
+        \draw[line width=1mm, longtrec-orange] ([yshift=0.4cm]current page.center) -- ++(-1.5cm,0) -- ++(3cm,0);
+        % Logo just above contact info
+        \node[anchor=center, yshift=-1.0cm] at (current page.center) {\includegraphics[height=1.8cm]{images/longtrec_white_logo.png}};
+        % Contact info (centered, below logo) - moved higher
+        \node[anchor=center, align=center, font=\large, yshift=-1.8cm] at (current page.center) {#1};
+        % Website (centered, below contact) - moved higher
+        \node[anchor=center, align=center, font=\large\bfseries, text=longtrec-orange, yshift=-2.8cm] at (current page.center) {#2};
+        % Email (centered, below website) - moved higher
+        \node[anchor=center, align=center, font=\large, yshift=-3.8cm] at (current page.center) {#3};
+      \end{scope}
+    \end{tikzpicture}
+  \end{frame}
+}

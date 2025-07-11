@@ -1,0 +1,21 @@
+# LaTeX intermediate and auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+
+# PDF outputs (comment out if you wish to version compiled PDFs)
+*.pdf
+
+# macOS Finder files
+.DS_Store
+
+# VSCode settings
+.vscode/ 
