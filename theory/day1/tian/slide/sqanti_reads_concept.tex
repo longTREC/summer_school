@@ -602,11 +602,7 @@ chr1 HAVANA three_prime_UTR 12058 14409 . + . ID=tutr0;Parent=transcript0;
   \begin{enumerate}
     \item What is the difference between analyzing reads versus UJCs (Unique Junction Chains)?
     \vspace{0.5cm}
-    \item Which SQANTI3 structural categories would you expect to see more of in high-quality vs. low-quality samples?
-    \vspace{0.5cm}
-    \item Why might the percentage of FSM (Full-Splice-Match) reads be an important QC metric?
-    \vspace{0.5cm}
-    \item How could SQANTI-reads help you identify problematic samples in a multi-sample experiment?
+    \item Which SQANTI3 structural categories would you expect to see more of in high-quality vs. low-quality samples? Why might the percentage of FSM (Full-Splice-Match) reads be an important QC metric?
   \end{enumerate}
 \end{frame}
 
@@ -715,26 +711,11 @@ chr1 HAVANA three_prime_UTR 12058 14409 . + . ID=tutr0;Parent=transcript0;
   \includegraphics[width=0.4\textwidth]{Genome Res_figure2_e.jpg}
 \end{frame}
 
-% Slide: Take-aways -----------------------------------------------------------
-\begin{frame}
-  \frametitle{Take-aways: Drosophila Time-course}
-  \begin{itemize}
-    \item \texttt{SQANTI-reads} metrics facilitate depth-normalised sample comparison in multisample lrRNA-seq experiments.
-    \item Short reads inflate ISM fraction, signalling RNA degradation.
-    \item UJC and gene-level counts remain stable; higher depth boosts quantitative power.
-    \item Integrated metric view readily pinpoints outlier libraries for removal prior to downstream analysis.
-  \end{itemize}
-\end{frame}
-
 %--- Check-in Questions: Case Studies --------------------------------------
 \begin{frame}
   \frametitle{Check-in Questions: Case Studies}
   \begin{enumerate}
-    \item In the LRGASP WTC11 study, what did PC1 and PC2 represent, and why were they informative?
-    \vspace{0.5cm}
     \item Why did cDNA ONT libraries show the highest proportion of NNC reads and UJCs?
-    \vspace{0.5cm}
-    \item How did read-length distributions help explain the separation between technologies?
     \vspace{0.5cm}
     \item What would you conclude if you saw a sample that clustered away from its expected technology group in PCA?
   \end{enumerate}
@@ -745,23 +726,12 @@ chr1 HAVANA three_prime_UTR 12058 14409 . + . ID=tutr0;Parent=transcript0;
 
 % Slide: Take-home Messages (1/2)
 \begin{frame}
-  \frametitle{Take-home Messages \textnormal{(1/2)}}
+  \frametitle{Take-home Messages}
   \begin{itemize}
     \item \textbf{Multi-sample dashboards}: stacked bars, heatmaps and ridgeplots instantly reveal QC metric trends across libraries.
     \item \textbf{PCA explorer}: interactive scores \& loadings plots pinpoint outliers, batch effects and technology biases.
     \item \textbf{Structural maps}: side-by-side visualisation of Unique Junction Chains and SQANTI3 categories clarifies read novelty.
     \item One-click toggle between \emph{reads}, \emph{UJCs} and \emph{gene}-level views—all colour-coded with the SQANTI3 palette.
-  \end{itemize}
-\end{frame}
-
-% Slide: Take-home Messages (2/2)
-\begin{frame}
-  \frametitle{Take-home Messages \textnormal{(2/2)}}
-  \begin{itemize}
-    \item \textbf{Donor/Acceptor lollipops} and CV heatmaps spotlight weak splice sites with pixel-perfect resolution.
-    \item \textbf{Under-annotation radar}: decision-tree badges and UpSet diagrams flag genes with putative novel isoforms.
-    \item Exports as self-contained \textbf{HTML reports} for interactive sharing, or high-res PDF/SVG for publications.
-    \item Designed for lectures and manuscripts—drop-in figures carry consistent fonts, colours and vector quality.
   \end{itemize}
 \end{frame}
 
