@@ -57,11 +57,11 @@ schemadotorg:
 
 
 ## Materials
-* (here we will put links to the slides)
-
+* [SQANTI-reads Concept Slides](../theory/day1/tian/slide/sqanti_reads_concept.pdf) - Theory presentation covering SQANTI-reads inputs, outputs, and key features
+* [Day 1 Practical Session](../practicals/day1/day1_practical.pdf) - Hands-on session slides covering experiment design, alignment comparison (minimap2 vs uLTRA), and SQANTI-reads applications
 
 ## Data
-* (for @Tian and @Sami to upload data)
+* [LRGASP H1 & H1-DE Chr8 Dataset](https://longtrec-summer-school.s3.us-east-1.amazonaws.com/lrgasp_h1_h1de_chr8_1_60000000.zip) - Subset of LRGASP Challenge 2 data focusing on chromosome 8 (positions 1-60,000,000) for H1 and H1-DE cell lines
 
 
 ## Recommended Bibliography
