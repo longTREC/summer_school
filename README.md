@@ -31,7 +31,7 @@ We have organized a comprehensive 4-day course designed for master's students, d
   * RNA modifications detection with long reads
 
 * **Advanced Topics**
-  * Single-cell and spatial transcriptomics approaches
+  * Single-cell transcriptomics approaches
   * Principles and practical applications of metatranscriptomics
 
 ## 🧑‍🔬 Who Should Attend?
