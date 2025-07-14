@@ -42,7 +42,6 @@ schemadotorg:
 | 16:45 - 17:05 | Results Discussion and Interpretation                           | <u>Tian & Sami</u>: Group discussion to review mapping results and SQANTI-reads findings. Participants compare mapping rates and splice junction classifications, linking practical outcomes back to theoretical concepts and experimental design choices                                                                                                                                                         |
 | 17:05 - 17:15 | Wrap-up & Next Steps                           | <u>Tian, Sami, Satrio & Carolina</u>: Conclude the day with a recap of key takeaways: long-read platform comparison, experimental design strategies, mapping techniques, and QC interpretation. Discuss next steps, provide further resources, and possibly close with a final poll or quiz to reinforce learning                                                                                                                                                         |
 
-
 ## Learning Objectives
 * Understand the fundamental principles, advantages, and limitations of PacBio and Nanopore long-read sequencing technologies.
 * Evaluate the trade-offs between different long-read platforms, read lengths, and sequencing depths for specific experimental goals.
@@ -55,14 +54,15 @@ schemadotorg:
 * Utilize `SQANTI-reads` to perform quality control on transcript alignments, interpret its output, and identify potential biases.
 * Compare mapping and QC results obtained from different datasets, library preparation methods, and mapping tools, linking practical outcomes to experimental design choices.
 
-
 ## Materials
-* [SQANTI-reads Concept Slides](../theory/day1/tian/slide/sqanti_reads_concept.pdf) - Theory presentation covering SQANTI-reads inputs, outputs, and key features
-* [Day 1 Practical Session](../practicals/day1/day1_practical.pdf) - Hands-on session slides covering experiment design, alignment comparison (minimap2 vs uLTRA), and SQANTI-reads applications
+* [Introduction and experimental design slides](../theory/day1/LongTREC_presentation_Day1_Carol.pdf) - Theory presentation covering introduction to sequencing technologies and experimental design checkin points.
+* [Library preparation slides](theory/day1/LongTREC_presentation_Day1_Satrio.pdf) - Theory presentation covering library preparation and basecalling.
+* [Mapping slides](../theory/day1/Mapping.pptx) - Theory presentation on mapping algorithms.
+* [SQANTI-reads Concept Slides](../theory/day1/tian/slide/sqanti_reads_concept.pdf) - Theory presentation covering SQANTI-reads inputs, outputs, and key features.
+* [Day 1 Practical Session](../practicals/day1/day1_practical.pdf) - Hands-on session slides covering experiment design, alignment comparison (minimap2 vs uLTRA), and SQANTI-reads applications.
 
 ## Data
 * [LRGASP H1 & H1-DE Chr8 Dataset](https://longtrec-summer-school.s3.us-east-1.amazonaws.com/lrgasp_h1_h1de_chr8_1_60000000.zip) - Subset of LRGASP Challenge 2 data focusing on chromosome 8 (positions 1-60,000,000) for H1 and H1-DE cell lines
-
 
 ## Recommended Bibliography
 * Monzó, C., Liu, T. & Conesa, A. Transcriptomics in the era of long-read sequencing. Nature Reviews Genetics (2025). [https://doi.org/10.1038/s41576-025-00828-z](https://doi.org/10.1038/s41576-025-00828-z)
