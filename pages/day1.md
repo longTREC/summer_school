@@ -56,7 +56,7 @@ schemadotorg:
 
 ## Materials
 * [Introduction and experimental design slides](../theory/day1/LongTREC_presentation_Day1_Carol.pdf) - Theory presentation covering introduction to sequencing technologies and experimental design checkin points.
-* [Library preparation slides](theory/day1/LongTREC_presentation_Day1_Satrio.pdf) - Theory presentation covering library preparation and basecalling.
+* [Library preparation slides](../theory/day1/LongTREC_presentation_Day1_Satrio.pdf) - Theory presentation covering library preparation and basecalling.
 * [Mapping slides](../theory/day1/Mapping.pptx) - Theory presentation on mapping algorithms.
 * [SQANTI-reads Concept Slides](../theory/day1/tian/slide/sqanti_reads_concept.pdf) - Theory presentation covering SQANTI-reads inputs, outputs, and key features.
 * [Day 1 Practical Session](../practicals/day1/day1_practical.pdf) - Hands-on session slides covering experiment design, alignment comparison (minimap2 vs uLTRA), and SQANTI-reads applications.
