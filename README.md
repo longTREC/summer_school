@@ -53,32 +53,37 @@ This training is specifically designed for early career researchers who are:
 
 | Time          | Session                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | **Lecture**:  <br><br> Different long-read sequencing technologies, experimental design, quality, mapping  <br><br> **Lecturers:** Carol, Satrio, Sami and Tian <br><br> **Learning Objective:**  |
+| 09:00 - 12:30 | **Lecture**:  <br><br> Different long-read sequencing technologies, experimental design, quality, mapping  <br><br> **Lecturers:** Carol, Satrio, Sami and Tian  |
 | 12:30 - 13:30 | *Lunch Break*                                                                               |
-| 13:30 - 17:00 | **Hands-on**: <br><br> Different long-read mappers and QC evaluation with SQANTI-reads <br><br> **Lecturers:** Sami and Tian <br><br> **Learning Objective:**  |
+| 13:30 - 17:00 | **Hands-on**: <br><br> Different long-read mappers and QC evaluation with SQANTI-reads <br><br> **Lecturers:** Sami and Tian  |
 
 ### Day 2 - 15 July 2025 | Transcript Analysis Day
 
 | Time          | Session                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | **Lecture & Hands-on**: <br><br> Transcript identification and quantification using long reads <br><br> **Lecturers:** Fabio, Ana, Fabian and Yalan <br><br> **Learning Objective:**  |
+| 09:00 - 12:30 | **Lecture & Hands-on**: <br><br> Transcript identification and quantification using long reads <br><br> **Lecturers:** Fabio, Ana, Fabian and Yalan  |
 | 12:30 - 13:30 | *Lunch Break*                                                                               |
-| 13:30 - 17:00 | **Lecture & Hands-on**: <br><br> Evaluation of structural annotation using long reads RNA sequences <br><br> **Lecturers:** Fabio, Ana, Fabian and Yalan <br><br> **Learning Objective:**  |
+| 13:30 - 17:00 | **Lecture & Hands-on**: <br><br> Evaluation of structural annotation using long reads RNA sequences <br><br> **Lecturers:** Fabio, Ana, Fabian and Yalan  |
 
 ### Day 3 - 16 July 2025 | Advanced Analysis Day
 
 | Time          | Session                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | **Lecture & Hands-on**: <br><br> Differential expression and haplotype analysis using long reads <br><br> **Lecturers:** Nadja and Pablo <br><br> **Learning Objective:**  |
+| 09:00 - 12:30 | **Lecture & Hands-on**: <br><br> Differential expression and haplotype analysis using long reads <br><br> **Lecturers:** Nadja and Pablo  |
 | 12:30 - 13:30 | *Lunch Break*                                                                               |
-| 13:30 - 17:00 | **Lecture & Hands-on**: <br><br> RNA modifications with long reads <br><br> **Lecturers:** Leda <br><br> **Learning Objective:**  |
+| 13:30 - 17:00 | **Lecture & Hands-on**: <br><br> RNA modifications with long reads <br><br> **Lecturers:** Leda  |
 
 ### Day 4 - 17 July 2025 | Specialized Applications Day
 
 | Time          | Session                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------|
-| 09:00 - 12:30 | **Lecture & Hands-on**: <br><br> Single-cell transcriptomics with long reads <br><br> **Lecturers:** Eamon and Fran <br><br> **Learning Objective:**  |
+| 09:00 - 12:30 | **Lecture & Hands-on**: <br><br> Single-cell transcriptomics with long reads <br><br> **Lecturers:** Eamon and Fran  |
 | 12:30 - 13:30 | *Lunch Break*                                                                              |
-| 13:30 - 17:00 | **Lecture & Hands-on**: <br><br> Metatranscriptomics with long reads <br><br> **Lecturers:** Carmen <br><br> **Learning Objective:**  |
+| 13:30 - 17:00 | **Lecture & Hands-on**: <br><br> Metatranscriptomics with long reads <br><br> **Lecturers:** Carmen  |
 
 ---
+
+We thank Pedro Fernandes for providing this template and his training session to prepare this course:
+https://www.linkedin.com/in/pedrofernandesbioinformatics/ <br>
+https://orcid.org/0000-0003-2124-0241 <br>
+pmlfern@gmail.com
