@@ -29,9 +29,9 @@ schemadotorg:
 |------|---------|---------|------------|
 | 9:00 - 9:30 | How to build your expression matrix and concept of DE analysis vs DIU | call and join, join and call |  |
 | 9:30 - 10:30 | Hands on | tappAS, IsoTools | [tappAS](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02028-w), [IsoTools](https://isotools.readthedocs.io/en/latest/)|
-| **Break** | 
-| 10:30 - 11:00 | Allele-specific expression | Specificity of long-reads<br>* Introduction.<br>* Biases and limitations.<br>* Main steps.<br>* Minimum input.<br>* Expected output<br>* Existing pipelines: LORALS, FALIR2, IDP-ASE |  [Review about allele-specific expression analyis](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-021621-122219), [LORALS](https://www.nature.com/articles/s41586-022-05035-y)|
-| 11:00 - 12:30 | Hands on | analyze ASE dataset<br>**Hands-on Task 1**<br>Description of the data. QC and filtering of already mapped samples.<br>**Hands-on Task 2**<br>Allele-specific expression quantification<br>**Hands-on Task 3**<br>Allele-imbalance testing<br>**Hands-on Task 4**<br>Interpretation of results and output. Real example application<br>**Conclusion and remarks**<br>* |  |
+| 10:30 - 11:00 | **Coffee Break** | | |
+| 11:00 - 11:30 | Allele-specific expression | Specificity of long-reads<br>* Introduction.<br>* Biases and limitations.<br>* Main steps.<br>* Minimum input.<br>* Expected output<br>* Existing pipelines: LORALS, FALIR2, IDP-ASE |  [Review about allele-specific expression analyis](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-021621-122219), [LORALS](https://www.nature.com/articles/s41586-022-05035-y)|
+| 11:30 - 12:30 | Hands on | analyze ASE dataset<br>**Hands-on Task 1**<br>Description of the data. QC and filtering of already mapped samples.<br>**Hands-on Task 2**<br>Allele-specific expression quantification<br>**Hands-on Task 3**<br>Allele-imbalance testing<br>**Hands-on Task 4**<br>Interpretation of results and output. Real example application<br>**Conclusion and remarks**<br>* |  |
 | 12:30 - 13:30 | **Lunch break** | | |
 | 13:30 - 14:30 | Introduction to epitranscriptomics | Overview of the field; use of long-read sequencing technologies for mapping RNA modifications; tRNA-specialized protocols and pipelines | |
 | 14:30 - 15:00 | Hands-on | Mapping Nano-tRNAseq data | Tools: _minimap2_ |
