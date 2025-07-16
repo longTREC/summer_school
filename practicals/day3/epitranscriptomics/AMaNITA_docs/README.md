@@ -7,7 +7,7 @@
 A pipeline for the combined analysis of tRNA abundance and modification information from Nanopore data; raw nanopore intensity signal to be integrated soon.
 
 > [!NOTE]
-> **Input**: Nano-tRNAseq-app-processed data, with accompanying metadata table
+> **Input**: BAM files with accompanying metadata table; or Nano-tRNAseq-app-processed data with accompanying metadata table (for Novoa Lab users). Check the documentation [here](./wiki/input.md) for more information
 > 
 > **Output**: AMaNITA Report
 
@@ -71,7 +71,7 @@ One metadata file is required per project. Learn more about how to build your me
  
 - Following columns can be occupied by variables of interest. 3 types of variables are accounted for:
 	- `comp_` - variables for which AMaNITA can run pairwise comparisons; examples: "Treatment", "Tissue", "Diet", etc.
-	- `batch_` - variables potential introducing batch effects; AMaNITA will confirm whether batch effects are introduced and will proceed to adjust for
+	- `batch_` - variables potential introducing batch effects; AMaNITA will confirm whether batch effects are introduced and will proceed to adjust for them
 	- `extra_` - additional variables of interest, for example clinical metadata
 	- ⚠️ It is advised that `comp_` and `batch_` variables are _not_ numerical; `extra_` can be numerical
 	
@@ -99,7 +99,7 @@ bash ~/AMaNITA/src/AMaNITA.sh \
      --data_dir {data_dir} \
      --organism {organism} \
      --mode_rnas {mode_rnas} \
-     -1234
+     -01234
 ```
 
 <details>
@@ -109,9 +109,9 @@ bash ~/AMaNITA/src/AMaNITA.sh \
 * `--project_id`: user-defined project ID; expected to match a directory under the `wrk_dir` directory, as well as the metadata file
 * `--wrk_dir`: path to the working directory = the `analysis` directory; flexible argument, i.e. the user can specify any directory, and its structure will automatically be adjusted to the conventions <!--([see below](#the-analysis-directory))-->
 * `--data_dir`: path to the `data` directory; flexible argument, i.e. the user can specify any directory, **as long as its structure and the metadata table match** <!--([see below](#the-data-directory))-->
-* `--organism`: organism, in abbreviated synonym format, e.g. "hg38", "mm39", etc; see [the aux directory](./aux/ref_v0.9) for availale organism references; <!--([see below](#the-data-directory) how to generate the required reference for a custom organism)-->
+* `--organism`: organism, in abbreviated synonym format, e.g. "hg38", "mm39", etc; see [the aux directory](./aux/ref_v0.9) for availale organism references; [check this walkthrough](./aux_src/README.md) on how to generate the required reference for a custom organism
 * `--mode_rnas`: ["cyto"/"mito"/"all"]; tRNA mode/ whether to utilize only cytoplasmic, only mitochrondrial, or all tRNAs for the analysis
-* `-1/2/3/4`: [see below](#4--running-the-pipeline-advanced)
+* `-0/1/2/3/4`: [see below](#4--running-the-pipeline-advanced)
 * ⚠️ please make sure to provide all paths as absolute ⚠️
  
 </details>
@@ -124,6 +124,7 @@ With the settings above, AMaNITA executes 4 modules:
 
 | Module | Explanation |
 | --- | --- |
+| Preprocessing | Generation of input TSV files with abundance and modification information; for Novoa Lab App Users, this is not necessary |
 | Filtering | Fitlering of bad quality reads and/or mismaps; 3 filters are applied (see details about the filters below) |
 | Technical | Quality control statistics and metrics; if filtering is carried out, QC metrics and plotsd will be generated for both before (pre-) and after (post-) filtering |
 | Batch | Batch effect investigations; batch effect removal and suggestion of optimal linear models for downstream differential analyses |
@@ -138,6 +139,7 @@ With the settings above, AMaNITA executes 4 modules:
 
 | Module | Abbrev | Arg (short) | Arg (long) |
 | --- | --- | --- | --- |
+| Preprocessing |  | -0 | --run_preprocessing |
 | Filtering | f | -1 | --run_filtering |
 | Technical | t | -2 | --run_technical |
 | Batch | b | -3 | --run_batch |
