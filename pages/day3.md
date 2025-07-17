@@ -51,17 +51,14 @@ schemadotorg:
 - understand why and how long-reads sequencing technologies are utilized for RNA modification detection
 - familiarize with tools for epitranscriptomics data analysis
 
-
 ## Materials
 * [Differential expression](theory/day3/Differential Expression.pdf): Slides for Join&Call, Call&Join and differential expression.
 * [tappAS](theory/day3/LongTREC_SummerSchool_tappAS.pptx): Slides for tappAS analysis.
 * [Haplotype analysis](https://github.com/longTREC/summer_school/blob/master/theory/day3/Haplotype%20analysis.pptx): Slides for allele-specific expression.
 * [Epitranscriptomics](theory/day3/LongTREC_SummerSchool_Epitranscriptomics_NoSpoilers.pdf): Slides for epitranscriptomics.
 
-
 ## Data
-* 
-
+* [Data](day3/data): link to backup data.
 
 ## Recommended Bibliography
 * Bi, Yalan. et al. IsoTools 2.0: software for comprehensive analysis of long-read transcriptome sequencing data. Journal of Molecular Biology (2025). https://doi.org/10.1016/j.jmb.2025.169049
