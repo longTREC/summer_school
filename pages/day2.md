@@ -39,7 +39,6 @@ schemadotorg:
 | 16:00 - 16:50 | Functional Annotation Practice    | <u>Ana & Fabian</u>: Utilizing IsoAnnotLite to obtain isoform-resolved annotations and visualization of results |
 | 16:50 - 17:00 | Summary                           | Questions                                                                                                                                                         |
 
-
 ## Learning Objectives
 * Students should be able to understand common problems for transcript identification and quantification and benchmarking resources
 * Students should be able to understand the landscape of transcript identification and quantification tools.
@@ -48,7 +47,6 @@ schemadotorg:
 * Students should be able to use long-read sequences to validate gene models and assess performance
 * Students should be able to functionally annotate transcript models and evaluate annotation results.
 
-
 ## Materials
 * [Transcript identification](theory/day2/Transcript Identification.pdf)
 * [Transcript identification quantification](theory/day2/Transcript identification quantification theory.pptx)
@@ -56,16 +54,13 @@ schemadotorg:
 * [SQANTI3](theory/day2/SQANTI3.pdf)
 * [Functional annotation](theory/day2/Functional Annotation.pdf)
 
-
 ## Data
-* 
-
+* [Data](day2/data): link to backup.
 
 ## Recommended Bibliography
 * Monzó, C., Liu, T. & Conesa, A. Transcriptomics in the era of long-read sequencing. Nature Reviews Genetics (2025). [https://doi.org/10.1038/s41576-025-00828-z](https://doi.org/10.1038/s41576-025-00828-z)
 * Bi, Yalan, et al. "IsoTools 2.0: software for comprehensive analysis of long-read transcriptome sequencing data." Journal of Molecular Biology (2025): 169049. [https://doi.org/10.1016/j.jmb.2025.169049](https://doi.org/10.1016/j.jmb.2025.169049)
 * Pardo-Palacios, F.J., Arzalluz-Luque, A., Kondratova, L. et al. SQANTI3: curation of long-read transcriptomes for accurate identification of known and novel isoforms. Nature Methods (2024). [https://doi.org/10.1038/s41592-024-02229-2](https://doi.org/10.1038/s41592-024-02229-2)
-
 
 ### Back
 
