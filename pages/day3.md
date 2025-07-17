@@ -53,7 +53,10 @@ schemadotorg:
 
 
 ## Materials
-* (here we will put links to the slides)
+* [Differential expression](theory/day3/Differential Expression.pdf): Slides for Join&Call, Call&Join and differential expression.
+* [tappAS](theory/day3/LongTREC_SummerSchool_tappAS.pptx): Slides for tappAS analysis.
+* [Haplotype analysis](https://github.com/longTREC/summer_school/blob/master/theory/day3/Haplotype%20analysis.pptx): Slides for allele-specific expression.
+* [Epitranscriptomics](theory/day3/LongTREC_SummerSchool_Epitranscriptomics_NoSpoilers.pdf): Slides for epitranscriptomics.
 
 
 ## Data
@@ -64,7 +67,8 @@ schemadotorg:
 * Bi, Yalan. et al. IsoTools 2.0: software for comprehensive analysis of long-read transcriptome sequencing data. Journal of Molecular Biology (2025). https://doi.org/10.1016/j.jmb.2025.169049
 * Glinos, D.A., Garborcauskas, G., Hoffman, P. et al. Transcriptome variation in human tissues revealed by long-read sequencing. Nature (2022). https://doi.org/10.1038/s41586-022-05035-y  
 * Cleary, S. and Seoighe, C. Perspectives on Allele-Specific Expression. Annual Reviews (2021). https://doi.org/10.1146/annurev-biodatasci-021621-122219
-* De la Fuente, L., Arzalluz-Luque, A., Tardáguila, M., et al. tappAS: a comprehensive computational framework for the analysis of the functional impact of differential splicing. Genome Biology (2020). https://doi.org/10.1186/s13059-020-02028-w 
+* De la Fuente, L., Arzalluz-Luque, A., Tardáguila, M., et al. tappAS: a comprehensive computational framework for the analysis of the functional impact of differential splicing. Genome Biology (2020). https://doi.org/10.1186/s13059-020-02028-w
+* Lucas, M.C., Pryszcz, L. et al. Quantitative analysis of tRNA abundance and modifications by nanopore RNA sequencing. Nature Biotechnology (2023). https://doi.org/10.1038/s41587-023-01743-6
 
 ### Back
 
