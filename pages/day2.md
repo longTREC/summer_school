@@ -55,7 +55,7 @@ schemadotorg:
 * [Functional annotation](theory/day2/Functional Annotation.pdf)
 
 ## Data
-* [Data](https://github.com/longTREC/summer_school_data_backup/day2/data): link to backup.
+* [Data](https://github.com/longTREC/summer_school_data_backup/tree/main/day2/data): link to backup.
 
 ## Recommended Bibliography
 * Monzó, C., Liu, T. & Conesa, A. Transcriptomics in the era of long-read sequencing. Nature Reviews Genetics (2025). [https://doi.org/10.1038/s41576-025-00828-z](https://doi.org/10.1038/s41576-025-00828-z)
