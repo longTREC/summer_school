@@ -50,7 +50,11 @@ schemadotorg:
 
 
 ## Materials
-* (here we will put links to the slides)
+* [Transcript identification](theory/day2/Transcript Identification.pdf)
+* [Transcript identification quantification](theory/day2/Transcript identification quantification theory.pptx)
+* [Isotools](theory/day2/IsoTools theory.pptx)
+* [SQANTI3](theory/day2/SQANTI3.pdf)
+* [Functional annotation](theory/day2/Functional Annotation.pdf)
 
 
 ## Data
