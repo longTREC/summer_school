@@ -61,7 +61,6 @@ schemadotorg:
 * Perform quality control of raw metatranscriptomic reads
 * Explore taxonomic diversity in different communities and characterise active functions
 
-
 ## Materials
 * [Single-cell 1](theory/day4/Differences_bulk_single.pdf): Introductory slides about single-cell long-reads.
 * [Single-cell 2](theory/day4/Pipelines.pdf): Slides for single cell analysis pipelines.
@@ -69,8 +68,7 @@ schemadotorg:
 * [Metatranscriptomics](theory/day4/Metatranscriptomics.pdf): Slides for metatranscriptomics.
 
 ## Data
-* 
-
+* [Data](day4/data): link to backup data.
 
 ## Recommended Bibliography
 * Gupta, P., O’Neill, H., Wolvetang, E.J., Chatterjee, A., Gupta, I., 2024. Advances in single-cell long-read sequencing technologies. NAR Genomics and Bioinformatics 6, lqae047. https://doi.org/10.1093/nargab/lqae047
