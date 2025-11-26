@@ -62,10 +62,10 @@ schemadotorg:
 * Explore taxonomic diversity in different communities and characterise active functions
 
 ## Materials
-* [Single-cell 1](theory/day4/Differences_bulk_single.pdf): Introductory slides about single-cell long-reads.
-* [Single-cell 2](theory/day4/Pipelines.pdf): Slides for single cell analysis pipelines.
-* [Single-cell 3](theory/day4/LongTREC_SS_EMC_Long_read_single_cell.pdf): Slides for tertiary analysis of long-reads single cell.
-* [Metatranscriptomics](theory/day4/Metatranscriptomics.pdf): Slides for metatranscriptomics.
+* [Single-cell 1](../theory/day4/Differences_bulk_single.pdf): Introductory slides about single-cell long-reads.
+* [Single-cell 2](../theory/day4/Pipelines.pdf): Slides for single cell analysis pipelines.
+* [Single-cell 3](../theory/day4/LongTREC_SS_EMC_Long_read_single_cell.pdf): Slides for tertiary analysis of long-reads single cell.
+* [Metatranscriptomics](../theory/day4/Metatranscriptomics.pdf): Slides for metatranscriptomics.
 
 ## Data
 * [Data](day4/data): link to backup data.

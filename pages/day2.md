@@ -48,11 +48,11 @@ schemadotorg:
 * Students should be able to functionally annotate transcript models and evaluate annotation results.
 
 ## Materials
-* [Transcript identification](theory/day2/Transcript Identification.pdf)
-* [Transcript identification quantification](theory/day2/Transcript identification quantification theory.pptx)
-* [Isotools](theory/day2/IsoTools theory.pptx)
-* [SQANTI3](theory/day2/SQANTI3.pdf)
-* [Functional annotation](theory/day2/Functional Annotation.pdf)
+* [Transcript identification](../theory/day2/Transcript_Identification.pdf)
+* [Transcript identification quantification](../theory/day2/Transcript_identification_quantification_theory.pptx)
+* [Isotools](../theory/day2/IsoTools_theory.pptx)
+* [SQANTI3](../theory/day2/SQANTI3.pdf)
+* [Functional annotation](../theory/day2/Functional_Annotation.pdf)
 
 ## Data
 * [Data](https://github.com/longTREC/summer_school_data_backup/tree/main/day2/data): link to backup.
