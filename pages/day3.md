@@ -58,7 +58,7 @@ schemadotorg:
 * [Epitranscriptomics](../theory/day3/LongTREC_SummerSchool_Epitranscriptomics_NoSpoilers.pdf): Slides for epitranscriptomics.
 
 ## Data
-* [Data](day3/data): link to backup data.
+* [Data backup](https://github.com/longTREC/summer_school_data_backup/tree/main/day3/data)
 
 ## Recommended Bibliography
 * Bi, Yalan. et al. IsoTools 2.0: software for comprehensive analysis of long-read transcriptome sequencing data. Journal of Molecular Biology (2025). https://doi.org/10.1016/j.jmb.2025.169049

@@ -68,7 +68,7 @@ schemadotorg:
 * [Metatranscriptomics](../theory/day4/Metatranscriptomics.pdf): Slides for metatranscriptomics.
 
 ## Data
-* [Data](day4/data): link to backup data.
+* [Data backup](https://github.com/longTREC/summer_school_data_backup/tree/main/day4/data)
 
 ## Recommended Bibliography
 * Gupta, P., O’Neill, H., Wolvetang, E.J., Chatterjee, A., Gupta, I., 2024. Advances in single-cell long-read sequencing technologies. NAR Genomics and Bioinformatics 6, lqae047. https://doi.org/10.1093/nargab/lqae047

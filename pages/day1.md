@@ -63,6 +63,7 @@ schemadotorg:
 
 ## Data
 * [LRGASP H1 & H1-DE Chr8 Dataset](https://longtrec-summer-school.s3.us-east-1.amazonaws.com/lrgasp_h1_h1de_chr8_1_60000000.zip) - Subset of LRGASP Challenge 2 data focusing on chromosome 8 (positions 1-60,000,000) for H1 and H1-DE cell lines
+* [Data backup](https://github.com/longTREC/summer_school_data_backup/tree/main/day1)
 
 ## Recommended Bibliography
 * Monzó, C., Liu, T. & Conesa, A. Transcriptomics in the era of long-read sequencing. Nature Reviews Genetics (2025). [https://doi.org/10.1038/s41576-025-00828-z](https://doi.org/10.1038/s41576-025-00828-z)
